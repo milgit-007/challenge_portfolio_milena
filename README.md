@@ -130,7 +130,7 @@
 
 🐞 Możliwość zapisania w bazie wielu graczy z takimi samymi danymi.
 
-![]()
+![](https://github.com/milgit-007/challenge_portfolio_milena/blob/main/Screenshots/BUG-mozliwosc_zapisania_wielu_graczy_z_tymi_samymi_danymi.png)
 
 🐞 Funkcja 'View Columns' nie działa prawidłowo. Przy przeglądaniu danych piłkarzy i wybraniu określonych kolumn, które mają zostać wyświetlone, a następnie przejściu na kolejną podstronę, do tabeli wynikowej automatycznie zostają dodane kolumny: 'Wiek' i 'Recenzja'. Kolumny te nie były pierwotnie zaznaczone, jako te, które mają być wyświetlone.
 
@@ -138,19 +138,19 @@
 
 🐞 Funkcja sortowania danych w tabeli dodanych piłkarzy nie działa prawidłowo. 
 
-![]()
+![](https://github.com/milgit-007/challenge_portfolio_milena/blob/main/Screenshots/BUG-sortowanie.png)
 
 🐞 Funkcja wyszukiwania nie działa prawidłowo. Po wpisaniu szukanej frazy i przejściu na kolejną podstronę tabeli wynikowej - wyświetlane dane nie są już zgodne z wyszukiwanym hasłem.
 
-![]()
+![](https://github.com/milgit-007/challenge_portfolio_milena/blob/main/Screenshots/BUG-wyszukiwarka.png)
 
 🐞 Brak jakiejkolwiek walidacji pól formularza (oprócz pola 'E-mail') - możliwość wprowadzenia różnego typu danych/znaków. Brak limitu, co do liczby znaków oraz ograniczeń dotyczących zakresu wprowadzanych liczb i dat.
 
-![]()
+![](https://github.com/milgit-007/challenge_portfolio_milena/blob/main/Screenshots/BUG-brak_walidacji_pol_formularza.png)
 
 🐞 Brak komunikatów walidacyjnych dla wymaganych pól formularza w przypadku próby wysłania pustego formularza. Komunikat walidacyjny pojawia się tylko przy pierwszym wymaganym polu, czyli polu 'Imię'.
 
-![]()
+![](https://github.com/milgit-007/challenge_portfolio_milena/blob/main/Screenshots/BUG-komunikaty_walidacyjne_brak.png)
 
 🐞 Błędy przy filtrowaniu danych:
 
@@ -160,31 +160,31 @@
 
 + Przy filtrowaniu wyników według określonego parametru, a następne usunięcie tej wartości i wybraniu filtrowania według innego parametru, zapamiętywana jest wartość poprzedniego kryterium wyszukiwania. Ostatecznie zawodnicy, spełniający oba warunki, trafiają do tabeli wynikowej.
 
-![]()
+![](https://github.com/milgit-007/challenge_portfolio_milena/blob/main/Screenshots/BUG-filtrowanie_zapamietywanie_poprzednich_parametrow.png)
 
 🐞 Będąc na stronie edycji danego zawodnika, po przejściu na zakładkę 'Raporty' i kliknięciu przycisku 'DODAJ RAPORT' - użytkownik zostaje przeniesiony na zakładkę 'Mecze'. 
 
-![]()
+![](https://github.com/milgit-007/challenge_portfolio_milena/blob/main/Screenshots/BUG-klikniecia-dodaj-raport-przenosi-nas-na-zakladke-mecze.png)
 
 🐞 'Warnings' w konsoli - w czasie korzystania z funkcji sortowania, wyszukiwania, filtrowania danych.
 
-![]()
+![](https://github.com/milgit-007/challenge_portfolio_milena/blob/main/Screenshots/WARNING-console.png)
 
 🐞 Po klikcięciu w link 'DEV TEAM CONTACT' - użytkownik zostaje przekierowany na stronę aplikacji 'slack'.
 
-![]()
+![](https://github.com/milgit-007/challenge_portfolio_milena/blob/main/Screenshots/BUG-dev-contact-team.png)
 
 🐞 Brak przekierowania na stronę raportu lub jakiejkolwiek akcji po kliknięciu linku: 'WRÓĆ DO RAPORTU'.
 
-![]()
+![](https://github.com/milgit-007/challenge_portfolio_milena/blob/main/Screenshots/BUG-link_wroc_do_raportu_nie_dziala.png)
 
 🐞 Nieistniejący zasób - użytkownik powinien zostać przekierowany na stronę z kodem odpowiedzi 404 i informacją 'Not Found'.
 
-![]() 
+![](https://github.com/milgit-007/challenge_portfolio_milena/blob/main/Screenshots/BUG-nieistniej%C4%85cy_zasob_1.png) 
 
 🐞 Nieprawidłowo obsłużony komunikat błędu. W przypadku zmodyfikowania adresu URL i wpisania id nieistniejącego w bazie zawodnika - użytkownik zostaje przekierowany na stronę z informacją: 'An error 500 occurred on server'. Użytkownik powinien zostać przekierowany na stronę z kodem odpowiedzi 404 i informacją 'Not Found'.
 
-![]()
+![](https://github.com/milgit-007/challenge_portfolio_milena/blob/main/Screenshots/BUG-zly_komunikat_bledu.png)
 
 🐞 Brak ograniczeń co do liczby wprowadzanych języków i załączanych linków z YouTube przy dodawaniu nowego gracza.
 
@@ -200,7 +200,7 @@
 
 🐞 W zakładce mecze po wybraniu opcji 'Rozpocznij mecz', użytkownik ma możliwość dodania zdarzeń do meczu. Po przejściu do panelu edycji tego meczu na liście zdarzeń wyświetlane są 'Meta dane', które nie są zrozumiałe i użyteczne dla użytkownika.
 
-![]()
+![](https://github.com/milgit-007/challenge_portfolio_milena/blob/main/Screenshots/BUG-lista_zdarzen.png)
 
 🐞 Nieprawidłowo zapisujące się dane w przypadku skorzystania z funkcji 'Download CSV'.
 
@@ -209,15 +209,15 @@
 
 🐞 Nieaktywny przycisk 'CLEAR' na stronie edycji gracza/meczu.
 
-![]() 
+![](https://github.com/milgit-007/challenge_portfolio_milena/blob/main/Screenshots/BUG-nieaktywny_przycisk.png) 
 
 🐞 W przypadku wpisania zbyt dużej liczby znaków w określone pole formularza - w tabeli wynikowej wartość ta nachodzi na inne elementy. 
 
-![]()
+![](https://github.com/milgit-007/challenge_portfolio_milena/blob/main/Screenshots/BUG-overlap.png)
 
 🐞 Podczas korzystania z aplikacji, po wybraniu preferowanego języka jako polski - część zawartości strony wyświetlana jest w języku angielskim.
 
-![]()
+![](https://github.com/milgit-007/challenge_portfolio_milena/blob/main/Screenshots/BUG-pomieszanie_jezykow.png)
 
 🐞 Błędy językowe na 'Stronie głównej' aplikacji.
 
@@ -225,7 +225,7 @@
 
 🐞 Na stronie edycji raportu przycisk 'SAVE', ze względu na swoje zdefiniowane położenie, przy przewijaniu strony, nachodzi na inne elementy.
 
-![]()
+![](https://github.com/milgit-007/challenge_portfolio_milena/blob/main/Screenshots/BUG-raport_przycisk_save_nachodzi_na_inne_elementy.png)
 
 
 
