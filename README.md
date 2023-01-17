@@ -1,35 +1,46 @@
 # 💻 TASK 1 💻
 
+### ✔️ [Subtask 1](#subtask1)
 
-## ✔️ Subtask 1
+### ✔️ [Subtask 3](#subtask3)
+
+### ✔️ [Subtask 4](#subtask4)
+
++ [1. Na czym polega ta aplikacja? Do czego służy?](#zad1)
++ [2. Funkcjonalności, jakie posiada aplikacja.](#zad2)
++ [3. Jakie funkcje można ewentualnie dodać/zmienić?](#zad3)
++ [4. Ocena interfejsu aplikacji.](#zad4)
++ [5. Potencjalne błędy.](#zad5)
+
+## ✔️<a name="subtask1">Subtask 1</a>
 
 10 punktów 🙂
 
-## ✔️ Subtask 3
+## ✔️<a name="subtask3">Subtask 3</a>
 
 
 <b>Cześć, jestem Milena.</b>
-<p align="justify">Obecnie jestem w trakcie zmiany mojej ścieżki zawodowej. Szukam więc wszelkich sposobów i możliwości, które mogłyby pomóc mi zrealizować ten cel. Udział w challenge portfolio jest jednym z nich. Mam nadzieję, że dzięki wyzwaniu, poszerzę i uporządkuję swoją wiedzę, którą zdobywałam samodzielnie przez ostatnie kilka miesięcy. Poza tym, przede wszystkim, liczę na to, że poprzez zaangażowanie w projekty, zdobędę praktyczne umiejętności i będę mogła wykorzystać je w przyszłości w pracy. Ponadto chcę poznać praktyczny aspekt zawodu testera, a domyślam się, że może różnić się on nieco od tego przedstawionego w Sylabusie. Myślę, że dzięki wsparciu mentorek i grupy, będzie mi łatwiej pokonać swoje obawy i wątpliwości. Mam nadzieję, że zbuduję piękne portfolio, a w przyszłości znajdę swoją pierwszą pracę jako testerka oprogramowania. ☺️</p>
 
+Obecnie jestem w trakcie zmiany mojej ścieżki zawodowej. Szukam więc wszelkich sposobów i możliwości, które mogłyby pomóc mi zrealizować ten cel. Udział w challenge portfolio jest jednym z nich. Mam nadzieję, że dzięki wyzwaniu, poszerzę i uporządkuję swoją wiedzę, którą zdobywałam samodzielnie przez ostatnie kilka miesięcy. Poza tym, przede wszystkim, liczę na to, że poprzez zaangażowanie w projekty, zdobędę praktyczne umiejętności i będę mogła wykorzystać je w przyszłości w pracy. Ponadto chcę poznać praktyczny aspekt zawodu testera, a domyślam się, że może różnić się on nieco od tego przedstawionego w Sylabusie. Myślę, że dzięki wsparciu mentorek i grupy, będzie mi łatwiej pokonać swoje obawy i wątpliwości. Mam nadzieję, że zbuduję piękne portfolio, a w przyszłości znajdę swoją pierwszą pracę jako testerka oprogramowania. ☺️
 
-## ✔️ Subtask 4
+## ✔️<a name="subtask4">Subtask 4</a>
 
-### 1. Na czym polega ta aplikacja? Do czego służy?
+### <a name="zad1">1. Na czym polega ta aplikacja? Do czego służy?</a>
 
-<p align="justify"> ➡️ Scouts Panel - jest to aplikacja, która umożliwia osobom poszukującym uzdolnionych piłkarzy ('łowcy talentów' - ang. scouts) przeglądanie zapisanych w bazie zawodników. Mają oni dostęp do wielu informacji dotyczących piłkarzy, takich jak np.: dane kontaktowe, pozycja zawodnika, klub, w którym występuje, parametry fizyczne itd. Aplikacja zapewnia im również możliwość dodania nowego gracza, a także edycji wprowadzonych danych. Dzięki aplikacji, 'łowcy talentów' mogą śledzić informacje dotyczące rozegranych przez danego piłkarza meczów oraz dodać i edytować mecz. Mają oni także dostęp do raportów - mogą je przeglądać, tworzyć i edytować.</p>
+➡️ Scouts Panel - jest to aplikacja, która umożliwia osobom poszukującym uzdolnionych piłkarzy ('łowcy talentów' - ang. scouts) przeglądanie zapisanych w bazie zawodników. Mają oni dostęp do wielu informacji dotyczących piłkarzy, takich jak np.: dane kontaktowe, pozycja zawodnika, klub, w którym występuje, parametry fizyczne itd. Aplikacja zapewnia im również możliwość dodania nowego gracza, a także edycji wprowadzonych danych. Dzięki aplikacji, 'łowcy talentów' mogą śledzić informacje dotyczące rozegranych przez danego piłkarza meczów oraz dodać i edytować mecz. Mają oni także dostęp do raportów - mogą je przeglądać, tworzyć i edytować.
 
 <hr>
 
-### 2. Funkcjonalności, jakie posiada aplikacja:
+### <a name="zad2">2. Funkcjonalności, jakie posiada aplikacja:</a>
 
-<p align="justify"><b> 1️⃣ DEV TEAM CONTACT </b> - funkcja, która ma służyć, do kontaktu z zespołem deweloperskim, prawdopodobnie w celu zgłoszenia ewentualnych problemów z działaniem aplikacji.
+<b> 1️⃣ DEV TEAM CONTACT </b> - funkcja, która ma służyć, do kontaktu z zespołem deweloperskim, prawdopodobnie w celu zgłoszenia ewentualnych problemów z działaniem aplikacji.
 
 + <b> INTUICYJNOŚĆ - SUGESTIE:</b>
      * Funkcja nie jest do końca intuicyjna. Przydałby się tutaj tooltip z wyjaśnieniem, do czego służy ten link i gdzie zostaniemy przekierowani.
      
 <hr>
     
- <p align="justify"><b> 2️⃣ Dodaj gracza</b> - funkcja umożliwia dodanie nowego piłkarza do bazy zawodników. Pozwala na podanie wielu informacji na temat danego gracza.</p>
+ <b> 2️⃣ Dodaj gracza</b> - funkcja umożliwia dodanie nowego piłkarza do bazy zawodników. Pozwala na podanie wielu informacji na temat danego gracza.
  
  + <b>INTUICYJNOŚĆ - SUGESTIE:</b> 
      * Nieintuicyjne pola formularza: 'Łączy nas piłka', '90 minut', 'Języki' - użytkownik może mieć problem z rozszyfrowaniem, jakie informacje należy tutaj podać.
@@ -90,9 +101,9 @@
   
 <hr>
   
-### 3. Jakie funkcje można dodać/zmienić?
+### <a name="zad3">3. Jakie funkcje można ewentualnie dodać/zmienić?</a>
   
- ❌ Usunęłabym ze 'Strony głównej' możliwość śledzenia ostatnich aktywności, które są dokonywane również przez innych użytkowników aplikacji - ze względów bezpieczeństwa.
+ ❌ Ze względów bezpieczeństwa i poufności danych, usunęłabym ze 'Strony głównej' możliwość śledzenia ostatnich aktywności, które są dokonywane również przez innych użytkowników aplikacji.
  
  ❗ Zmodyfikowałabym funkcję edycji piłkarza/meczu/raportu - tak aby użytkownik miał możliwość zmiany danych tylko tego piłkarza/meczu/raportu, które sam dodał do bazy, a nie wszystkich, także dodanych przez innych użytkowników aplikacji.
  
@@ -118,24 +129,23 @@
  
 <hr>
 
-### 4. Ocena interfejsu aplikacji:
-
-🔍 Aplikacja ta posiada zbyt minimalistyczny interfejs. Jest za bardzo statyczna. Użyte kolory nie są przyjemne w odbiorze. Jasny motyw aplikacji 'męczy wzrok', więc przydałoby się tutaj zastosowanie bardziej przyjaznych barw albo chociażby możliwość wyboru dark mode.
-
-🔍 Aplikacja nie jest responsywna. Niektóre treści nie prezentują się dobrze na mniejszych ekranach. Korzystanie z części funkcji jest wówczas także utrudnione.
+### <a name="zad4">4. Ocena interfejsu aplikacji:</a>
 
 🔍 Elementy na 'Stronie głównej' mogłyby być rozmieszczone w bardziej atrakcyjny wizualnie sposób. Brakuje tutaj także efektownego, przyciągającego wzrok, logo. Poza tym tytuł i nagłówki nie zwracają na siebie uwagi i wtapiają się w tło. Przydatne mogłyby okazać się wskazówki i podpowiedzi, w jaki sposób użytkownik może korzystać z aplikacji oraz jakie funkcjonalności ona oferuje. Na 'Stronie głównej' pojawiają się też błędy językowe i błędy w pisowni. To wszystko już na starcie nie wpływa na pozytywny odbiór aplikacji.
 
 🔍 Główne funkcje aplikacji powinny być bardziej wyeksponowane. Tak, aby użytkownik nie miał problemu z dotarciem do nich. W tym przypadku utrudnione jest dostanie się do zakładek 'Mecze' i 'Raporty', do których można trafić tylko z poziomu edycji gracza.
 
-🔍 W aplikacji brakuje także przykuwających uwagę detali. Takie elementy jak: grafiki, galerie, interaktywne treści sprawiłyby, że aplikacja byłaby bardziej atrakcyjna dla użytkownika.
-
 🔍 Dane zawodników w zakładce 'Gracze', 'Mecze' i 'Raporty' powinny być zaprezentowane w bardziej czytelny i ciekawy sposób. Poza tym brak ograniczeń co do liczby wprowadzanych znaków, sprawia, że dodawany jest scrollbar, a wówczas przeglądanie tych informacji jest utrudnione i męczące.
 
+🔍 Aplikacja nie jest responsywna. Niektóre treści nie prezentują się dobrze na mniejszych ekranach. Korzystanie z części funkcji jest wówczas utrudnione.
+
+🔍 Aplikacja ta posiada zbyt minimalistyczny interfejs. Jest za bardzo statyczna. Użyte kolory nie są przyjemne w odbiorze. Jasny motyw 'męczy wzrok', więc przydałoby się tutaj zastosowanie bardziej przyjaznych dla oczu barw albo chociażby możliwość wyboru dark mode.
+
+🔍 W aplikacji brakuje także przykuwających uwagę detali. Takie elementy jak: grafiki, galerie, interaktywne treści sprawiłyby, że aplikacja byłaby bardziej atrakcyjna dla użytkownika.
 
 <hr>
 
-### 5. Potencjalne błędy:
+### <a name="zad5">5. Potencjalne błędy:</a>
 
 🐞 Brak zabezpieczenia części endpointów. Dostęp do danych bez jakiejkolwiek autoryzacji - z narzędzia Postman lub poprzez wklejenie adresu URL w nowym oknie przeglądarki w trybie Incognito. 
 
