@@ -19,7 +19,6 @@
 <p align="justify"> ➡️ Scouts Panel - jest to aplikacja, która umożliwia osobom poszukującym uzdolnionych piłkarzy ('łowcy talentów' - ang. scouts) przeglądanie zapisanych w bazie zawodników. Mają oni dostęp do wielu informacji dotyczących piłkarzy, takich jak np.: dane kontaktowe, pozycja zawodnika, klub, w którym występuje, parametry fizyczne itd. Aplikacja zapewnia im również możliwość dodania nowego gracza, a także edycji wprowadzonych danych. Dzięki aplikacji, 'łowcy talentów' mogą śledzić informacje dotyczące rozegranych przez danego piłkarza meczów oraz dodać i edytować mecz. Mają oni także dostęp do raportów - mogą je przeglądać, tworzyć i edytować.</p>
 
 <hr>
-<hr>
 
 ### 2. Funkcjonalności, jakie posiada aplikacja:
 
@@ -90,7 +89,6 @@
   
   
 <hr>
-<hr>
   
 ### 3. Jakie funkcje można dodać/zmienić?
   
@@ -119,18 +117,16 @@
 ➕ Dodałabym również możliwość wyświetlania wszystkich zapisanych danych dotyczących gracza/meczu/raportu bez konieczności przechodzenia na stronę edycji tego zasobu. Użytkownik powinien mieć możliwość wyświetlenia tych informacji i przeczytania ich w komfortowy sposób, a następnie sam mógłby zdecydować, czy chce je edytować.
  
 <hr>
-<hr>
 
 ### 3. Ocena interfejsu aplikacji:
 
-<hr>
 <hr>
 
 ### 4. Potencjalne błędy:
 
 🐞 Brak zabezpieczenia części endpointów. Dostęp do danych bez jakiejkolwiek autoryzacji - z narzędzia Postman lub poprzez wklejenie adresu URL w nowym oknie przeglądarki w trybie Incognito. 
 
-![]()
+![](https://github.com/milgit-007/challenge_portfolio_milena/blob/main/Screenshots/BUG-bezpieczenstwo.png)
 
 🐞 Możliwość zapisania w bazie wielu graczy z takimi samymi danymi.
 
@@ -138,7 +134,7 @@
 
 🐞 Funkcja 'View Columns' nie działa prawidłowo. Przy przeglądaniu danych piłkarzy i wybraniu określonych kolumn, które mają zostać wyświetlone, a następnie przejściu na kolejną podstronę, do tabeli wynikowej automatycznie zostają dodane kolumny: 'Wiek' i 'Recenzja'. Kolumny te nie były pierwotnie zaznaczone, jako te, które mają być wyświetlone.
 
-![]()
+![](https://github.com/milgit-007/challenge_portfolio_milena/blob/main/Screenshots/BUG-dodanie_kolumn.png)
 
 🐞 Funkcja sortowania danych w tabeli dodanych piłkarzy nie działa prawidłowo. 
 
@@ -158,9 +154,9 @@
 
 🐞 Błędy przy filtrowaniu danych:
 
-+ W przypadku filtrowania danych według parametru wieku, wykorzystywana jest data, a nie wiek piłkarza. Dlatego do tabeli wynikowej trafiają także zawodnicy, którzy nie osiągnęli jeszcze określonego wieku, a znajdują się jedynie w przedziale wyznaczonym przez przyjęte do filtrowania daty.
++ W przypadku filtrowania danych według kryterium wieku, wykorzystywana jest data, a nie wiek piłkarza. Dlatego do tabeli wynikowej trafiają także zawodnicy, którzy nie osiągnęli jeszcze określonego wieku, a znajdują się jedynie w przedziale wyznaczonym przez przyjęte do filtrowania daty.
 
-![]()
+![](https://github.com/milgit-007/challenge_portfolio_milena/blob/main/Screenshots/BUG-filtrowanie_wiek.png)
 
 + Przy filtrowaniu wyników według określonego parametru, a następne usunięcie tej wartości i wybraniu filtrowania według innego parametru, zapamiętywana jest wartość poprzedniego kryterium wyszukiwania. Ostatecznie zawodnicy, spełniający oba warunki, trafiają do tabeli wynikowej.
 
@@ -192,11 +188,11 @@
 
 🐞 Brak ograniczeń co do liczby wprowadzanych języków i załączanych linków z YouTube przy dodawaniu nowego gracza.
 
-![]()
+![](https://github.com/milgit-007/challenge_portfolio_milena/blob/main/Screenshots/BUG-dodaj_jezyk_i_link_YT.png)
 
 🐞 Błędne zapisywanie danych przy dodawaniu nowego meczu dla danego zawodnika. Aby zapisać mecz, nie jest wymagane zaznaczenie żadnego radio buttona (chociaż wybranie którejś opcji powinno być konieczne). Jednak w ciele żądania domyślnie przesyłana jest wartość - 'matchAtHome: false'. Po wejściu w panel edycji tego meczu, zaznaczony jest radio button z wartością 'Mecz wyjazdowy'.
 
-![]()
+![](https://github.com/milgit-007/challenge_portfolio_milena/blob/main/Screenshots/BUG-dodawanie_meczu_radio_button.png)
 
 🐞 Sprawdzając zakładkę Network w konsoli - można zauważyć, że podczas logowania do aplikacji w Response w obiekcie 'user' przesyłana jest bardzo duża (nadmiarowa) ilość danych.
 
@@ -208,7 +204,7 @@
 
 🐞 Nieprawidłowo zapisujące się dane w przypadku skorzystania z funkcji 'Download CSV'.
 
-![]()
+![](https://github.com/milgit-007/challenge_portfolio_milena/blob/main/Screenshots/BUG-download_CSV.png)
 
 
 🐞 Nieaktywny przycisk 'CLEAR' na stronie edycji gracza/meczu.
@@ -225,7 +221,7 @@
 
 🐞 Błędy językowe na 'Stronie głównej' aplikacji.
 
-![]()
+![](https://github.com/milgit-007/challenge_portfolio_milena/blob/main/Screenshots/BUG-bledy_jezykowe.png)
 
 🐞 Na stronie edycji raportu przycisk 'SAVE', ze względu na swoje zdefiniowane położenie, przy przewijaniu strony, nachodzi na inne elementy.
 
