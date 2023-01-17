@@ -42,7 +42,7 @@
      * Pole województwo nie jest wymagane, ale wybór wartości dla tego pola jest konieczny do utworzenia raportu, więc może pole to powinno być obowiązkowe już na etapie dodawania i zapisywania danych nowego gracza.
      * W przypadku próby dodania zawodnika z nieprawidłowo wypełnionymi polami formularza, pojawia się informacja 'Nie udało się dodać gracza'. Użytkownik nie dostaje informacji, dlaczego to się nie powiodło i jakie pola formularza są błędnie wypełnione.
  
- ![](https://github.com/milgit-007/challenge_portfolio_milena/blob/main/Screenshots/INTUICYJNOSC-nie_udalo_sie_zapisac_gracza.png)
+ ![](https://github.com/milgit-007/challenge_portfolio_milena/blob/main/Screenshots/INTUICYJNOSC-nie_zapisano_gracza.png)
  
  
  <hr>
@@ -118,39 +118,66 @@
  
 <hr>
 
-### 3. Ocena interfejsu aplikacji:
+### 4. Ocena interfejsu aplikacji:
+
+🔍 Aplikacja ta posiada zbyt minimalistyczny interfejs. Jest za bardzo statyczna. Użyte kolory nie są przyjemne w odbiorze. Jasny motyw aplikacji 'męczy wzrok', więc przydałoby się tutaj zastosowanie bardziej przyjaznych barw albo chociażby możliwość wyboru dark mode.
+
+🔍 Aplikacja nie jest responsywna. Niektóre treści nie prezentują się dobrze na mniejszych ekranach. Korzystanie z części funkcji jest wówczas także utrudnione.
+
+🔍 Elementy na 'Stronie głównej' mogłyby być rozmieszczone w bardziej atrakcyjny wizualnie sposób. Brakuje tutaj także efektownego, przyciągającego wzrok, logo. Poza tym tytuł i nagłówki nie zwracają na siebie uwagi i wtapiają się w tło. Przydatne mogłyby okazać się wskazówki i podpowiedzi, w jaki sposób użytkownik może korzystać z aplikacji oraz jakie funkcjonalności ona oferuje. Na 'Stronie głównej' pojawiają się też błędy językowe i błędy w pisowni. To wszystko już na starcie nie wpływa na pozytywny odbiór aplikacji.
+
+🔍 Główne funkcje aplikacji powinny być bardziej wyeksponowane. Tak, aby użytkownik nie miał problemu z dotarciem do nich. W tym przypadku utrudnione jest dostanie się do zakładek 'Mecze' i 'Raporty', do których można trafić tylko z poziomu edycji gracza.
+
+🔍 W aplikacji brakuje także przykuwających uwagę detali. Takie elementy jak: grafiki, galerie, interaktywne treści sprawiłyby, że aplikacja byłaby bardziej atrakcyjna dla użytkownika.
+
+🔍 Dane zawodników w zakładce 'Gracze', 'Mecze' i 'Raporty' powinny być zaprezentowane w bardziej czytelny i ciekawy sposób. Poza tym brak ograniczeń co do liczby wprowadzanych znaków, sprawia, że dodawany jest scrollbar, a wówczas przeglądanie tych informacji jest utrudnione i męczące.
+
 
 <hr>
 
-### 4. Potencjalne błędy:
+### 5. Potencjalne błędy:
 
 🐞 Brak zabezpieczenia części endpointów. Dostęp do danych bez jakiejkolwiek autoryzacji - z narzędzia Postman lub poprzez wklejenie adresu URL w nowym oknie przeglądarki w trybie Incognito. 
 
 ![](https://github.com/milgit-007/challenge_portfolio_milena/blob/main/Screenshots/BUG-bezpieczenstwo.png)
 
+<hr>
+
 🐞 Możliwość zapisania w bazie wielu graczy z takimi samymi danymi.
 
 ![](https://github.com/milgit-007/challenge_portfolio_milena/blob/main/Screenshots/BUG-mozliwosc_zapisania_wielu_graczy_z_tymi_samymi_danymi.png)
+
+<hr>
 
 🐞 Funkcja 'View Columns' nie działa prawidłowo. Przy przeglądaniu danych piłkarzy i wybraniu określonych kolumn, które mają zostać wyświetlone, a następnie przejściu na kolejną podstronę, do tabeli wynikowej automatycznie zostają dodane kolumny: 'Wiek' i 'Recenzja'. Kolumny te nie były pierwotnie zaznaczone, jako te, które mają być wyświetlone.
 
 ![](https://github.com/milgit-007/challenge_portfolio_milena/blob/main/Screenshots/BUG-dodanie_kolumn.png)
 
+<hr>
+
 🐞 Funkcja sortowania danych w tabeli dodanych piłkarzy nie działa prawidłowo. 
 
 ![](https://github.com/milgit-007/challenge_portfolio_milena/blob/main/Screenshots/BUG-sortowanie.png)
+
+<hr>
 
 🐞 Funkcja wyszukiwania nie działa prawidłowo. Po wpisaniu szukanej frazy i przejściu na kolejną podstronę tabeli wynikowej - wyświetlane dane nie są już zgodne z wyszukiwanym hasłem.
 
 ![](https://github.com/milgit-007/challenge_portfolio_milena/blob/main/Screenshots/BUG-wyszukiwarka.png)
 
+<hr>
+
 🐞 Brak jakiejkolwiek walidacji pól formularza (oprócz pola 'E-mail') - możliwość wprowadzenia różnego typu danych/znaków. Brak limitu, co do liczby znaków oraz ograniczeń dotyczących zakresu wprowadzanych liczb i dat.
 
 ![](https://github.com/milgit-007/challenge_portfolio_milena/blob/main/Screenshots/BUG-brak_walidacji_pol_formularza.png)
 
+<hr>
+
 🐞 Brak komunikatów walidacyjnych dla wymaganych pól formularza w przypadku próby wysłania pustego formularza. Komunikat walidacyjny pojawia się tylko przy pierwszym wymaganym polu, czyli polu 'Imię'.
 
 ![](https://github.com/milgit-007/challenge_portfolio_milena/blob/main/Screenshots/BUG-komunikaty_walidacyjne_brak.png)
+
+<hr>
 
 🐞 Błędy przy filtrowaniu danych:
 
@@ -158,70 +185,104 @@
 
 ![](https://github.com/milgit-007/challenge_portfolio_milena/blob/main/Screenshots/BUG-filtrowanie_wiek.png)
 
+<hr>
+
 + Przy filtrowaniu wyników według określonego parametru, a następne usunięcie tej wartości i wybraniu filtrowania według innego parametru, zapamiętywana jest wartość poprzedniego kryterium wyszukiwania. Ostatecznie zawodnicy, spełniający oba warunki, trafiają do tabeli wynikowej.
 
 ![](https://github.com/milgit-007/challenge_portfolio_milena/blob/main/Screenshots/BUG-filtrowanie_zapamietywanie_poprzednich_parametrow.png)
+
+<hr>
 
 🐞 Będąc na stronie edycji danego zawodnika, po przejściu na zakładkę 'Raporty' i kliknięciu przycisku 'DODAJ RAPORT' - użytkownik zostaje przeniesiony na zakładkę 'Mecze'. 
 
 ![](https://github.com/milgit-007/challenge_portfolio_milena/blob/main/Screenshots/BUG-klikniecia-dodaj-raport-przenosi-nas-na-zakladke-mecze.png)
 
+<hr>
+
 🐞 'Warnings' w konsoli - w czasie korzystania z funkcji sortowania, wyszukiwania, filtrowania danych.
 
 ![](https://github.com/milgit-007/challenge_portfolio_milena/blob/main/Screenshots/WARNING-console.png)
+
+<hr>
 
 🐞 Po klikcięciu w link 'DEV TEAM CONTACT' - użytkownik zostaje przekierowany na stronę aplikacji 'slack'.
 
 ![](https://github.com/milgit-007/challenge_portfolio_milena/blob/main/Screenshots/BUG-dev-contact-team.png)
 
+<hr>
+
 🐞 Brak przekierowania na stronę raportu lub jakiejkolwiek akcji po kliknięciu linku: 'WRÓĆ DO RAPORTU'.
 
 ![](https://github.com/milgit-007/challenge_portfolio_milena/blob/main/Screenshots/BUG-link_wroc_do_raportu_nie_dziala.png)
+
+<hr>
 
 🐞 Nieistniejący zasób - użytkownik powinien zostać przekierowany na stronę z kodem odpowiedzi 404 i informacją 'Not Found'.
 
 ![](https://github.com/milgit-007/challenge_portfolio_milena/blob/main/Screenshots/BUG-nieistniejacy_zasob.png) 
 
+<hr>
+
 🐞 Nieprawidłowo obsłużony komunikat błędu. W przypadku zmodyfikowania adresu URL i wpisania id nieistniejącego w bazie zawodnika - użytkownik zostaje przekierowany na stronę z informacją: 'An error 500 occurred on server'. Użytkownik powinien zostać przekierowany na stronę z kodem odpowiedzi 404 i informacją 'Not Found'.
 
 ![](https://github.com/milgit-007/challenge_portfolio_milena/blob/main/Screenshots/BUG-zly_komunikat_bledu.png)
+
+<hr>
 
 🐞 Brak ograniczeń co do liczby wprowadzanych języków i załączanych linków z YouTube przy dodawaniu nowego gracza.
 
 ![](https://github.com/milgit-007/challenge_portfolio_milena/blob/main/Screenshots/BUG-dodaj_jezyk_i_link_YT.png)
 
+<hr>
+
 🐞 Błędne zapisywanie danych przy dodawaniu nowego meczu dla danego zawodnika. Aby zapisać mecz, nie jest wymagane zaznaczenie żadnego radio buttona (chociaż wybranie którejś opcji powinno być konieczne). Jednak w ciele żądania domyślnie przesyłana jest wartość - 'matchAtHome: false'. Po wejściu w panel edycji tego meczu, zaznaczony jest radio button z wartością 'Mecz wyjazdowy'.
 
 ![](https://github.com/milgit-007/challenge_portfolio_milena/blob/main/Screenshots/BUG-dodawanie_meczu_radio_button.png)
+
+<hr>
 
 🐞 Sprawdzając zakładkę Network w konsoli - można zauważyć, że podczas logowania do aplikacji w Response w obiekcie 'user' przesyłana jest bardzo duża (nadmiarowa) ilość danych.
 
 ![](https://github.com/milgit-007/challenge_portfolio_milena/blob/main/Screenshots/BUG-response_nadmiarowe_dane.png)
 
+<hr>
+
 🐞 W zakładce mecze po wybraniu opcji 'Rozpocznij mecz', użytkownik ma możliwość dodania zdarzeń do meczu. Po przejściu do panelu edycji tego meczu na liście zdarzeń wyświetlane są 'Meta dane', które nie są zrozumiałe i użyteczne dla użytkownika.
 
 ![](https://github.com/milgit-007/challenge_portfolio_milena/blob/main/Screenshots/BUG-lista_zdarzen.png)
 
+<hr>
+
 🐞 Nieprawidłowo zapisujące się dane w przypadku skorzystania z funkcji 'Download CSV'.
 
 ![](https://github.com/milgit-007/challenge_portfolio_milena/blob/main/Screenshots/BUG-download_CSV.png)
+
+<hr>
 
 
 🐞 Nieaktywny przycisk 'CLEAR' na stronie edycji gracza/meczu.
 
 ![](https://github.com/milgit-007/challenge_portfolio_milena/blob/main/Screenshots/BUG-nieaktywny_przycisk.png) 
 
+<hr>
+
 🐞 W przypadku wpisania zbyt dużej liczby znaków w określone pole formularza - w tabeli wynikowej wartość ta nachodzi na inne elementy. 
 
 ![](https://github.com/milgit-007/challenge_portfolio_milena/blob/main/Screenshots/BUG-overlap.png)
+
+<hr>
 
 🐞 Podczas korzystania z aplikacji, po wybraniu preferowanego języka jako polski - część zawartości strony wyświetlana jest w języku angielskim.
 
 ![](https://github.com/milgit-007/challenge_portfolio_milena/blob/main/Screenshots/BUG-pomieszanie_jezykow.png)
 
-🐞 Błędy językowe na 'Stronie głównej' aplikacji.
+<hr>
+
+🐞 Błędy językowe i błędy w pisowni na 'Stronie głównej' aplikacji i stronie edycji gracza.
 
 ![](https://github.com/milgit-007/challenge_portfolio_milena/blob/main/Screenshots/BUG-bledy_jezykowe.png)
+
+<hr>
 
 🐞 Na stronie edycji raportu przycisk 'SAVE', ze względu na swoje zdefiniowane położenie, przy przewijaniu strony, nachodzi na inne elementy.
 
