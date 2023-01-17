@@ -36,13 +36,13 @@
      * Brak focusu na pierwsze pole formularza po wczytaniu formularza - byłoby to wygodniejsze dla użytkownika, gdyby kursor umożliwiający wprowadzanie danych znajdował się od razu w pierwszym polu.
      * Drop-down list - zamiast możliwości samodzielnego podawania informacji w przypadku tych pól formularza, gdzie występuje ograniczona liczba możliwych opcji do podania np. 'Poziom rozgrywek', 'Główna pozycja', 'Pozycja alternatywna'.
      
-     ![]( https://github.com/milgit-007/challenge_portfolio_milena/blob/main/Screen/Intuicyjnosc-dodaj_gracza.png)
+     ![](https://github.com/milgit-007/challenge_portfolio_milena/blob/main/Screenshots/Intuicyjnosc-dodaj_gracza.png)
    
      * Przekierowanie na stronę edycji po zapisaniu danych piłkarza jest nieintuicyjne. Użytkownik może nie chcieć od razu modyfikować wprowadzonych danych. Lepszym rozwiązaniem byłoby przekierowanie na stronę z tabelą wynikową zapisanych w bazie piłkarzy.
      * Pole województwo nie jest wymagane, ale wybór wartości dla tego pola jest konieczny do utworzenia raportu, więc może pole to powinno być obowiązkowe już na etapie dodawania i zapisywania danych nowego gracza.
      * W przypadku próby dodania zawodnika z nieprawidłowo wypełnionymi polami formularza, pojawia się informacja 'Nie udało się dodać gracza'. Użytkownik nie dostaje informacji, dlaczego to się nie powiodło i jakie pola formularza są błędnie wypełnione.
  
- ![]( https://github.com/milgit-007/challenge_portfolio_milena/blob/main/Screen/Intuicyjnosc-nieudane_dodanie_gracza.png)
+ ![](https://github.com/milgit-007/challenge_portfolio_milena/blob/main/Screenshots/Intuicyjnosc-nieudane_dodanie_gracza.png)
  
  
  <hr>
@@ -54,7 +54,7 @@
        * Po wprowadzeniu zmian w danych zawodnika i kliknięciu przycisku 'SUBMIT', pojawia się informacja: 'Zapisano gracza', ale użytkownik nadal pozostaje na stronie edycji. Jest to nieintuicyjne, lepszym rozwiązaniem byłoby przekierowanie użytkownika na stronę z tabelą wynikową.
        * Dodanie przycisku 'RETURN' - sprawdziłby się on w sytuacji, gdy użytkownik jednak zmieniłby zdanie i nie chciałby modyfikować informacji dotyczących danego zawodnika.
  
-  ![](https://github.com/milgit-007/challenge_portfolio_milena/blob/main/Screen/INTUICYJNOSC-edytuj_gracza.png)
+  ![](https://github.com/milgit-007/challenge_portfolio_milena/blob/main/Screenshots/INTUICYJNOSC-edytuj_gracza.png)
   
   <hr>
   
@@ -79,7 +79,7 @@
  + **INTUICYJNOŚĆ - SUGESTIE:**
       * Funkcja rozpocznij mecz - jest nieintuicyjna, użytkownik może mieć problem z odgadnięciem, co się pod nią kryje. Przydałby się jakiś opis tej funkcji i wyjaśnienie działań, które są tutaj możliwe do wykonania. Pomocne mogłyby także okazać się tooltipy dla przycisków pozwalających sterować meczem. Brak informacji odnoście tego, do czego one służą, utrudnia korzystanie z tej funkcji.
       
-          ![](https://github.com/milgit-007/challenge_portfolio_milena/blob/main/Screen/INTUICYJNOSC-rozpocznij_mecz.png)
+          ![](https://github.com/milgit-007/challenge_portfolio_milena/blob/main/Screenshots/INTUICYJNOSC-rozpocznij_mecz.png)
           
 <hr>
       
@@ -106,7 +106,7 @@
  
 ➕ Dodałabym możliwość przejścia do zakładek 'Mecze' i 'Raporty' także ze 'Strony głównej', a nie tylko z podstrony edycji określonego zawodnika.
 
-![](https://github.com/milgit-007/challenge_portfolio_milena/blob/main/Screen/INTUICYJNOSC-podstrony.png)
+![](https://github.com/milgit-007/challenge_portfolio_milena/blob/main/Screenshots/INTUICYJNOSC-podstrony.png)
  
 ➕ Dodałabym możliwość wyszukiwania, sortowania i filtrowania danych także dla meczów oraz raportów.
 
@@ -180,7 +180,7 @@
 
 🐞 Nieistniejący zasób - użytkownik powinien zostać przekierowany na stronę z kodem odpowiedzi 404 i informacją 'Not Found'.
 
-![](https://github.com/milgit-007/challenge_portfolio_milena/blob/main/Screenshots/BUG-nieistniej%C4%85cy_zasob_1.png) 
+![](https://github.com/milgit-007/challenge_portfolio_milena/blob/main/Screenshots/BUG-nieistniejacy_zasob.png) 
 
 🐞 Nieprawidłowo obsłużony komunikat błędu. W przypadku zmodyfikowania adresu URL i wpisania id nieistniejącego w bazie zawodnika - użytkownik zostaje przekierowany na stronę z informacją: 'An error 500 occurred on server'. Użytkownik powinien zostać przekierowany na stronę z kodem odpowiedzi 404 i informacją 'Not Found'.
 
@@ -196,7 +196,7 @@
 
 🐞 Sprawdzając zakładkę Network w konsoli - można zauważyć, że podczas logowania do aplikacji w Response w obiekcie 'user' przesyłana jest bardzo duża (nadmiarowa) ilość danych.
 
-![]()
+![](https://github.com/milgit-007/challenge_portfolio_milena/blob/main/Screenshots/BUG-response_nadmiarowe_dane.png)
 
 🐞 W zakładce mecze po wybraniu opcji 'Rozpocznij mecz', użytkownik ma możliwość dodania zdarzeń do meczu. Po przejściu do panelu edycji tego meczu na liście zdarzeń wyświetlane są 'Meta dane', które nie są zrozumiałe i użyteczne dla użytkownika.
 
