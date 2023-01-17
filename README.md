@@ -42,7 +42,7 @@
      * Pole województwo nie jest wymagane, ale wybór wartości dla tego pola jest konieczny do utworzenia raportu, więc może pole to powinno być obowiązkowe już na etapie dodawania i zapisywania danych nowego gracza.
      * W przypadku próby dodania zawodnika z nieprawidłowo wypełnionymi polami formularza, pojawia się informacja 'Nie udało się dodać gracza'. Użytkownik nie dostaje informacji, dlaczego to się nie powiodło i jakie pola formularza są błędnie wypełnione.
  
- ![](https://github.com/milgit-007/challenge_portfolio_milena/blob/main/Screenshots/Intuicyjnosc-nieudane_dodanie_gracza.png)
+ ![](https://github.com/milgit-007/challenge_portfolio_milena/blob/main/Screenshots/INTUICYJNOSC-nie_udalo_sie_zapisac_gracza.png)
  
  
  <hr>
