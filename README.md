@@ -1,5 +1,7 @@
 # 💻 TASK 1 💻
 
+### 📜SPIS TREŚCI:
+
 ### ✔️ [Subtask 1](#subtask1)
 
 ### ✔️ [Subtask 3](#subtask3)
@@ -33,10 +35,7 @@ Obecnie jestem w trakcie zmiany mojej ścieżki zawodowej. Szukam więc wszelkic
 
 ### <a name="zad2">2. Funkcjonalności, jakie posiada aplikacja:</a>
 
-<b> 1️⃣ DEV TEAM CONTACT </b> - funkcja, która ma służyć, do kontaktu z zespołem deweloperskim, prawdopodobnie w celu zgłoszenia ewentualnych problemów z działaniem aplikacji.
-
-+ <b> INTUICYJNOŚĆ - SUGESTIE:</b>
-     * Funkcja nie jest do końca intuicyjna. Przydałby się tutaj tooltip z wyjaśnieniem, do czego służy ten link i gdzie zostaniemy przekierowani.
+<b> 1️⃣ Logowanie do aplikacji </b> - poprzez podanie prawidłowego 'Loginu' i 'Hasła' oraz kliknięcie przycisku 'ZALOGUJ'. Na panelu logowania użytkownik ma także dostęp do funkcji <b>'Przypomnij hasło'</b>. 
      
 <hr>
     
@@ -97,9 +96,19 @@ Obecnie jestem w trakcie zmiany mojej ścieżki zawodowej. Szukam więc wszelkic
  <p align="justify"><b> 6️⃣ Przeglądanie raportów dotyczących meczów rozegranych przez danego piłkarza.</b> Użytkownik na tej podstronie ma dostęp do dodatkowych funkcji:</p>
  
   + **Edytuj** - umożliwia modyfikację danych w raporcie.
-  
-  
+ 
 <hr>
+
+<b> 7️⃣ DEV TEAM CONTACT </b> - funkcja, która ma służyć, do kontaktu z zespołem deweloperskim, prawdopodobnie w celu zgłoszenia ewentualnych problemów z działaniem aplikacji.
+
++ <b> INTUICYJNOŚĆ - SUGESTIE:</b>
+     * Funkcja nie jest do końca intuicyjna. Przydałby się tutaj tooltip z wyjaśnieniem, do czego służy ten link i gdzie zostaniemy przekierowani.
+     
+ <hr>
+ 
+ <b> 8️⃣ Wybór wersji językowej aplikacji </b> - użytkownik może korzystać z aplikacji w języku polskim i angielskim. Opcja możliwości wyboru preferowanego języka jest dostępna na panelu logowania oraz po zalogowaniu w menu bocznym.
+ 
+ <hr>
   
 ### <a name="zad3">3. Jakie funkcje można ewentualnie dodać/zmienić?</a>
   
@@ -142,6 +151,8 @@ Obecnie jestem w trakcie zmiany mojej ścieżki zawodowej. Szukam więc wszelkic
 🔍 Aplikacja ta posiada zbyt minimalistyczny interfejs. Jest za bardzo statyczna. Użyte kolory nie są przyjemne w odbiorze. Jasny motyw 'męczy wzrok', więc przydałoby się tutaj zastosowanie bardziej przyjaznych dla oczu barw albo chociażby możliwość wyboru dark mode.
 
 🔍 W aplikacji brakuje także przykuwających uwagę detali. Takie elementy jak: grafiki, galerie, interaktywne treści sprawiłyby, że aplikacja byłaby bardziej atrakcyjna dla użytkownika.
+
+🔍 Sprawdziłyby się tutaj również breadcrumbsy, które pomogłyby użytkownikowi odnaleźć się w aplikacji. Dzięki nim łatwiej byłoby mu śledzić swoją aktualną lokalizację i wrócić do poprzednich podstron bez konieczności używania przycisku 'Wstecz' przeglądarki.
 
 <hr>
 
