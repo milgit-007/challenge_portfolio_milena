@@ -1,6 +1,8 @@
-# 💻 TASK 1 💻
+
 
 ### 📜SPIS TREŚCI:
+
+### ➡️ TASK 1 
 
 ### ✔️ [Subtask 1](#subtask1)
 
@@ -14,12 +16,25 @@
 + [4. Ocena interfejsu aplikacji.](#zad4)
 + [5. Potencjalne błędy.](#zad5)
 
+### ➡️ TASK 2
+
+### ✔️ [Subtask 1](#task2_01) 
+
+### ✔️ [Subtask 2](#task2_02)
+
+### ✔️ [Subtask 3](#task2_03)
+
+### ✔️ [Subtask 4](#task2_04)
+
+<hr>
+
+# 💻 TASK 1 💻
+
 ## ✔️<a name="subtask1">Subtask 1</a>
 
 10 punktów 🙂
 
 ## ✔️<a name="subtask3">Subtask 3</a>
-
 
 <b>Cześć, jestem Milena.</b>
 
@@ -308,6 +323,53 @@ Obecnie jestem w trakcie zmiany mojej ścieżki zawodowej. Szukam więc wszelkic
 🐞 Na stronie edycji raportu przycisk 'SAVE', ze względu na swoje zdefiniowane położenie, przy przewijaniu strony, nachodzi na inne elementy.
 
 ![](https://github.com/milgit-007/challenge_portfolio_milena/blob/main/Screenshots/BUG-raport_przycisk_save_nachodzi_na_inne_elementy.png)
+
+<hr>
+
+# 💻 TASK 2 💻
+
+## ✔️<a name="task2_01">Subtask 1</a>
+
+### 📁 [Pisanie przypadków testowych na podstawie User Story](https://docs.google.com/spreadsheets/d/1rBmQfs4Acsg6MUCn8uuYeGAkeGYqnxBsLcjCWMfGNps/edit#gid=0)
+
+## ✔️<a name="task2_02">Subtask 2</a>
+
+### 📁 [Pisanie przypadków testowych na podstawie 'własnych doświadczeń'](https://docs.google.com/spreadsheets/d/1jU3SUgaWm0FiRyUpTnnJ7LiWlG9B46tyOAGxn2N8nM0/edit#gid=764302285)
+
+## ✔️<a name="task2_03">Subtask 3</a>
+
+![](https://media.makeameme.org/created/tests-tests-everywhere-ikkczl.jpg)
+
+
+### ➡️ Why we should write test cases? Why test cases are important? 
+
+📌 Test cases provide a structured approach to testing and ensure that all important areas of the software are covered and that testing is systematic and thorough.
+
+📌 Test cases guarantee that software meets its requirements by verifying the software behaves as expected.
+
+📌 Using test cases, testers can track progress and measure results, and can create test reports based on test results.
+
+📌 Test cases, providing a common understanding of what should be tested, improving communication and teamwork.
+
+📌 The purpose of test cases is also to help identify and reproduce bugs by providing clear steps on how to replicate them.
+
+📌 Test cases can be useful for regression testing as well.
+
+📌 When writing test cases, we can identify edge cases and negative scenarios that need to be considered when testing the software.
+
+📌 Test cases can be useful when converting tests into automated scripts.
+
+📌 Test cases can be a very good source of information about the system for new team members
+
+📌 Test cases can also be used in acceptance testing to confirm that the application works as expected.
+
+📌 When writing test cases based on requirements, user stories and acceptance criteria, we can find defects and inconsistencies in them.
+
+## ✔️<a name="task2_04">Subtask 4</a>
+
+### 📁 [Pick Eat Up - test cases](https://docs.google.com/spreadsheets/d/1p0qtzf-GonfvHYDX-CW0mW0lt6H0xA5zIXGsgtavdUg/edit#gid=0)
+
+
 
 
 
