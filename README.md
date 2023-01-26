@@ -44,7 +44,7 @@ Obecnie jestem w trakcie zmiany mojej ścieżki zawodowej. Szukam więc wszelkic
 
 ### <a name="zad1">1. Na czym polega ta aplikacja? Do czego służy?</a>
 
-➡️ Scouts Panel - jest to aplikacja, która umożliwia osobom poszukującym uzdolnionych piłkarzy ('łowcy talentów' - ang. scouts) przeglądanie zapisanych w bazie zawodników. Mają oni dostęp do wielu informacji dotyczących piłkarzy, takich jak np.: dane kontaktowe, pozycja zawodnika, klub, w którym występuje, parametry fizyczne itd. Aplikacja zapewnia im również możliwość dodania nowego gracza, a także edycji wprowadzonych danych. Dzięki aplikacji, 'łowcy talentów' mogą śledzić informacje dotyczące rozegranych przez danego piłkarza meczów oraz dodać i edytować mecz. Mają oni także dostęp do raportów - mogą je przeglądać, tworzyć i edytować.
+➡️ Scouts Panel ⚽ - jest to aplikacja, która umożliwia osobom poszukującym uzdolnionych piłkarzy ('łowcy talentów' - ang. scouts) przeglądanie zapisanych w bazie zawodników. Mają oni dostęp do wielu informacji dotyczących piłkarzy, takich jak np.: dane kontaktowe, pozycja zawodnika, klub, w którym występuje, parametry fizyczne itd. Aplikacja zapewnia im również możliwość dodania nowego gracza, a także edycji wprowadzonych danych. Dzięki aplikacji, 'łowcy talentów' mogą śledzić informacje dotyczące rozegranych przez danego piłkarza meczów oraz dodać i edytować mecz. Mają oni także dostęp do raportów - mogą je przeglądać, tworzyć i edytować.
 
 <hr>
 
@@ -341,7 +341,7 @@ Obecnie jestem w trakcie zmiany mojej ścieżki zawodowej. Szukam więc wszelkic
 ![](https://media.makeameme.org/created/tests-tests-everywhere-ikkczl.jpg)
 
 
-### ➡️ Why we should write test cases? Why test cases are important? 
+### 👉 Why we should write test cases? Why test cases are important? 
 
 📌 Test cases provide a structured approach to testing and ensure that all important areas of the software are covered and that testing is systematic and thorough.
 
@@ -359,11 +359,13 @@ Obecnie jestem w trakcie zmiany mojej ścieżki zawodowej. Szukam więc wszelkic
 
 📌 Test cases can be useful when converting tests into automated scripts.
 
-📌 Test cases can be a very good source of information about the system for new team members
+📌 Test cases can be a very good source of information about the system for new team members.
 
 📌 Test cases can also be used in acceptance testing to confirm that the application works as expected.
 
 📌 When writing test cases based on requirements, user stories and acceptance criteria, we can find defects and inconsistencies in them.
+
+📌 By writing test cases, we can prepare test data that may be needed during test execution.
 
 ## ✔️<a name="task2_04">Subtask 4</a>
 
