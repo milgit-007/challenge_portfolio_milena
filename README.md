@@ -401,6 +401,10 @@ Obecnie jestem w trakcie zmiany mojej ścieżki zawodowej. Szukam więc wszelkic
 
 ### 📁 [Raport z testów](https://docs.google.com/document/d/1oXkOWjZgBjTzP-3KQuXjIUv_hPcjwA61mI8LdLvpZgA/edit?usp=share_link)
 
+## ✔️<a name="task3_04">Subtask 4</a>
+
+### 📁 [Exploratory testing - Intellectual Tour 💡](https://docs.google.com/spreadsheets/d/1FLA8Eiy_HHp-hLkXB-UcoXh6t79-7fyzNsfE0GA-H0w/edit?usp=share_link)
+
 
 
 
