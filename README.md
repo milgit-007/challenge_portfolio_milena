@@ -26,6 +26,16 @@
 
 ### ✔️ [Subtask 4](#task2_04)
 
+### ➡️ TASK 3
+
+### ✔️ [Subtask 1](#task3_01) 
+
+### ✔️ [Subtask 2](#task3_02)
+
+### ✔️ [Subtask 3](#task3_03)
+
+### ✔️ [Subtask 4](#task3_04)
+
 <hr>
 
 # 💻 TASK 1 💻
@@ -370,6 +380,29 @@ Obecnie jestem w trakcie zmiany mojej ścieżki zawodowej. Szukam więc wszelkic
 ## ✔️<a name="task2_04">Subtask 4</a>
 
 ### 📁 [Pick Eat Up - test cases](https://docs.google.com/spreadsheets/d/1p0qtzf-GonfvHYDX-CW0mW0lt6H0xA5zIXGsgtavdUg/edit#gid=0)
+
+<hr>
+
+# 💻 TASK 3 💻
+
+## ✔️<a name="task3_01">Subtask 1</a>
+
+### 📁 [Formatka do zgłaszania błędów](https://docs.google.com/spreadsheets/d/1LczMRwB2G6M3G79CQN9x3UoWwBZQwXsAaeiIUMewWcY/edit#gid=142669186)
+
+## ✔️<a name="task3_02">Subtask 2</a>
+
+### 📁 [Wykonanie przypadków testowych napisanych na podstawie User Story](https://docs.google.com/spreadsheets/d/1Lxvl5lHW2tqgAJVLrWT3dhdB5jVweaJiMbZk1CDeLQs/edit?usp=share_link)
+
+### 📁 [Wykonanie przypadków testowych napisanych na podstawie 'własnych doświadczeń'](https://docs.google.com/spreadsheets/d/1Etp_z5JsIklDq-6SHOj0OC7Tb2CBi-pcsM996rsNoEc/edit?usp=share_link)
+
+### 📁 [Raportowanie błędów](https://docs.google.com/spreadsheets/d/1LczMRwB2G6M3G79CQN9x3UoWwBZQwXsAaeiIUMewWcY/edit#gid=976627270)
+
+## ✔️<a name="task3_03">Subtask 3</a>
+
+### 📁 [Raport z testów](https://docs.google.com/document/d/1oXkOWjZgBjTzP-3KQuXjIUv_hPcjwA61mI8LdLvpZgA/edit?usp=share_link)
+
+
+
 
 
 
