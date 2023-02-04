@@ -434,7 +434,7 @@ Obecnie jestem w trakcie zmiany mojej ścieżki zawodowej. Szukam więc wszelkic
 
 ### 1️⃣ What is this application used for? What is the purpose of this application?
 
-<b> OLX - is an application that allows users to buy and sell a wide range of new or second-hand products and services. The application makes easy and convenient transactions between buyers and sellers. The purpose of OLX is to connect buyers and sellers, and provide an easy-to-use platform for users to buy and sell goods. The application has many functionalities:</b>
+<b> 🔶 OLX - is an application that allows users to buy and sell a wide range of new or second-hand products and services. The application makes easy and convenient transactions between buyers and sellers. The purpose of OLX is to connect buyers and sellers, and provide an easy-to-use platform for users to buy and sell goods. The application has many functionalities:</b>
 
 🔹 Users can create an account, also via their email or social media.
 
@@ -454,11 +454,29 @@ Obecnie jestem w trakcie zmiany mojej ścieżki zawodowej. Szukam więc wszelkic
 
 ### 2️⃣ Who are the end users of the application?
 
-🔶 The OLX application is targeted to a wide range of users, including individuals and businesses. The application allows them to buy and sell used or new items from various categories such as automotive, property, electronics, fashion, etc. They can easily add their items for sale, browse other users' listings and communicate with potential buyers. They can also search for work opportunities and offer their services.
+👥 The OLX application is targeted to a wide range of users, including individuals and businesses. The application allows them to buy and sell used or new items from various categories such as automotive, property, electronics, fashion, etc. They can easily add their items for sale, browse other users' listings and communicate with potential buyers. They can also search for work opportunities and offer their services.
 
 ### 3️⃣ In your opinion, is the application user friendly?
 
-🔶 The application has a user-friendly interface, making navigation easy and effortless. The layout is intuitive, and I can quickly figure out how to use the application and find the necessary functionalities. Adding offers through the application is simple, and the form can be filled out efficiently. However, clearer feedback on actions like error messages or confirmations would be useful, as they don't always accurately reflect the situation. A positive point of the application is the ability to personalize the interface, notifications, or settings, including the option to switch between dark and light mode. Unfortunately, scrolling down when filling in the offer-adding form is problematic, and makes it difficult to complete the form by entering all required information, which sometimes even resulted in my having to leave the offer-adding page.
+❤️ The application has a user-friendly interface, making navigation easy and effortless. The layout is intuitive, and I can quickly figure out how to use the application and find the necessary functionalities. Adding offers through the application is simple, and the form can be filled out efficiently. However, clearer feedback on actions like validation messages or confirmations would be useful, because they don't always accurately reflect the situation. A positive point of the application is the ability to personalize the interface, notifications, or settings, including the option to switch between dark and light mode. Unfortunately, scrolling down when filling in the offer-adding form is problematic, and makes it difficult to complete the form by entering all required information, which sometimes even resulted in my having to leave the offer-adding page.
+
+4️⃣ How would you improve the application? Do you have any ideas for additional functionality?
+
+ ❗ I have a few suggestion that can be improve the OLX application:
+
++ Improving form security to prevent the use of HTML entities and tags.
++ Verifying added listings to ensure that the added price accurately reflects the value of the products.
++ Improving the user experience by fixing the problem of the page scrolling down when filling in the form to add an offer.
++ Providing clear and relevant feedback on actions such as validation or confirmation messages.
++ Adding field validation when filling in a candidate profile in the user's account section.
++ Solving the problem of not being able to change the display of offers on the filter setting page.
+
+➕ I have several potential additional functionalities that could be added to the OLX application:
+
++ Option to add several similar products from the same category at once.
++ Option for bidding on items by buyers.
++ A feature that would allow users to view listings on the map, making it easier to find offers in their area.
++ Option to join groups and conversations for people interested in a particular category of items. 
 
 ## ✔️<a name="task4_04">Subtask 4</a>
 
