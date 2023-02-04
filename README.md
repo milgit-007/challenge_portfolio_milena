@@ -36,6 +36,17 @@
 
 ### ✔️ [Subtask 4](#task3_04)
 
+
+### ➡️ TASK 
+
+### ✔️ [Subtask 1](#task4_01) 
+
+### ✔️ [Subtask 2](#task4_02)
+
+### ✔️ [Subtask 3](#task4_03)
+
+### ✔️ [Subtask 4](#task4_04)
+
 <hr>
 
 # 💻 TASK 1 💻
@@ -404,6 +415,54 @@ Obecnie jestem w trakcie zmiany mojej ścieżki zawodowej. Szukam więc wszelkic
 ## ✔️<a name="task3_04">Subtask 4</a>
 
 ### 📁 [Exploratory testing - Intellectual Tour 💡](https://docs.google.com/spreadsheets/d/1FLA8Eiy_HHp-hLkXB-UcoXh6t79-7fyzNsfE0GA-H0w/edit?usp=share_link)
+
+<hr>
+
+# 💻 TASK 4 💻
+
+## ✔️<a name="task4_01">Subtask 1</a>
+
+### 📁 [Formatka do zgłaszania błędów dla aplikacji mobilnej](https://docs.google.com/spreadsheets/d/1R_yWdkP4XF8otJ9yEAID0kaVwPvEB2_pgyNP5vC7vtU/edit#gid=0)
+
+## ✔️<a name="task4_02">Subtask 2</a>
+
+### 📁 [Testowanie eksploracyjne aplikacji OLX i raportowanie błędów](https://docs.google.com/spreadsheets/d/1R_yWdkP4XF8otJ9yEAID0kaVwPvEB2_pgyNP5vC7vtU/edit#gid=622446418)
+
+## ✔️<a name="task4_03">Subtask 3</a>
+
+![](https://blog.reallife.ws/wp-content/uploads/2021/01/olx-logo-20F1656D13-seeklogo.com_.png)
+
+### 1️⃣ What is this application used for? What is the purpose of this application?
+
+<b> OLX - is an application that allows users to buy and sell a wide range of new or second-hand products and services. The application makes easy and convenient transactions between buyers and sellers. The purpose of OLX is to connect buyers and sellers, and provide an easy-to-use platform for users to buy and sell goods. The application has many functionalities:</b>
+
+🔹 Users can create an account, also via their email or social media.
+
+🔹 Users can easily add their goods and services for sale by creating an offer with details such as product title, category, description, price, photos, localization, and contact information. 
+
+🔹 Users can also browse items - the application provides search functionality, as well as filter offers to help users fast find what they are looking for. Users can search for products for specific keywords and filter the results based on different criteria like category, location, price, etc. There is also an option to sort the results by cheapest, most expensive, newest, and user-specific selection. In addition, the application can use the user's location to show him relevant offers in his area.
+
+🔹 Besides, users can save their favorite offers for quick access in the future. There is also an option to save observed searches.
+
+🔹 Users can communicate with each other directly within the application to ask questions, negotiate prices, discuss product details, and so on.
+
+🔹 The application allows secure in-app payments using various payment methods,  making it easy to complete transactions securely and efficiently.
+
+🔹 The application has a user profile section that allows users to view and manage their listings, messages, payments, and settings. Here users can manage their listings, including editing, deleting, or marking them as sold. In addition, they can create a candidate profile, view matched job offers, and sent job applications. Users can customize their alerts to receive notifications about new offers that match their preferences.
+
+🔹 The application offers customer support through a dedicated help center and a contact form for users to get answers to their questions and solve any problems.
+
+### 2️⃣ Who are the end users of the application?
+
+🔶 The OLX application is targeted to a wide range of users, including individuals and businesses. The application allows them to buy and sell used or new items from various categories such as automotive, property, electronics, fashion, etc. They can easily add their items for sale, browse other users' listings and communicate with potential buyers. They can also search for work opportunities and offer their services.
+
+### 3️⃣ In your opinion, is the application user friendly?
+
+🔶 The application has a user-friendly interface, making navigation easy and effortless. The layout is intuitive, and I can quickly figure out how to use the application and find the necessary functionalities. Adding offers through the application is simple, and the form can be filled out efficiently. However, clearer feedback on actions like error messages or confirmations would be useful, as they don't always accurately reflect the situation. A positive point of the application is the ability to personalize the interface, notifications, or settings, including the option to switch between dark and light mode. Unfortunately, scrolling down when filling in the offer-adding form is problematic, and makes it difficult to complete the form by entering all required information, which sometimes even resulted in my having to leave the offer-adding page.
+
+## ✔️<a name="task4_04">Subtask 4</a>
+
+### 📁 []()
 
 
 
