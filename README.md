@@ -440,15 +440,15 @@ Obecnie jestem w trakcie zmiany mojej ścieżki zawodowej. Szukam więc wszelkic
 
 🔹 Users can easily add their goods and services for sale by creating an offer with details such as product title, category, description, price, photos, localization, and contact information. 
 
-🔹 Users can also browse items - the application provides search functionality, as well as filter offers to help users fast find what they are looking for. Users can search for products for specific keywords and filter the results based on different criteria like category, location, price, etc. There is also an option to sort the results by cheapest, most expensive, newest, and user-specific selection. In addition, the application can use the user's location to show him relevant offers in his area.
+🔹 Users can also browse items - the application provides search functionality, as well as filter offers to help users fast find what they are looking for. Users can search for products for specific keywords and filter the results based on different criteria like category, location, price, etc. The application also provides options to sort results by cheapest, most expensive, newest, or based on the user's preference. In addition, the application can use the user's location to show him relevant offers in his area.
 
-🔹 Besides, users can save their favorite offers for quick access in the future. There is also an option to save observed searches.
+🔹 Besides, users can save their favorite offers for quick access later, as well as save their observed searches.
 
 🔹 Users can communicate with each other directly within the application to ask questions, negotiate prices, discuss product details, and so on.
 
-🔹 The application allows secure in-app payments using various payment methods,  making it easy to complete transactions securely and efficiently.
+🔹 The application allows secure in-app payments using various payment methods, making it easy to complete transactions securely and efficiently.
 
-🔹 The application has a user profile section that allows users to view and manage their listings, messages, payments, and settings. Here users can manage their listings, including editing, deleting, or marking them as sold. In addition, they can create a candidate profile, view matched job offers, and sent job applications. Users can customize their alerts to receive notifications about new offers that match their preferences.
+🔹 The application has a user profile section that allows users to view and manage their listings, messages, payments, and settings. Here users can manage their listings, including editing, deleting, or marking them as sold. In addition, they can create a candidate profile, view matched job offers, apply for jobs, and browse sent job applications. Users can set alerts to receive notifications of new offers that match their preferences.
 
 🔹 The application offers customer support through a dedicated help center and a contact form for users to get answers to their questions and solve any problems.
 
@@ -458,14 +458,14 @@ Obecnie jestem w trakcie zmiany mojej ścieżki zawodowej. Szukam więc wszelkic
 
 ### 3️⃣ In your opinion, is the application user friendly?
 
-❤️ The application has a user-friendly interface, making navigation easy and effortless. The layout is intuitive, and I can quickly figure out how to use the application and find the necessary functionalities. Adding offers through the application is simple, and the form can be filled out efficiently. However, clearer feedback on actions like validation messages or confirmations would be useful, because they don't always accurately reflect the situation. A positive point of the application is the ability to personalize the interface, notifications, or settings, including the option to switch between dark and light mode. Unfortunately, scrolling down when filling in the offer-adding form is problematic, and makes it difficult to complete the form by entering all required information, which sometimes even resulted in my having to leave the offer-adding page.
+🚀 The application has a user-friendly interface, making navigation easy and effortless. The layout is intuitive, and I can quickly figure out how to use the application and find the necessary functionalities. Adding offers through the application is simple, and the form can be filled out efficiently. However, clearer feedback on actions like validation messages or confirmations would be useful, because they don't always accurately reflect the situation. A positive point of the application is the ability to personalize the interface, notifications, or settings, including the option to switch between dark and light mode. Unfortunately, scrolling down when filling in the offer-adding form is problematic, and makes it difficult to complete the form by entering all required information, which sometimes even resulted in my having to leave the offer-adding page.
 
-4️⃣ How would you improve the application? Do you have any ideas for additional functionality?
+### 4️⃣ How would you improve the application? Do you have any ideas for additional functionality?
 
  ❗ I have a few suggestion that can be improve the OLX application:
 
-+ Improving form security to prevent the use of HTML entities and tags.
-+ Verifying added listings to ensure that the added price accurately reflects the value of the products.
++ Improving form security to prevent the use of HTML entities and tags and other invalid data.
++ Verifying added listings to ensure that the added details, including price, accurately reflect the products.
 + Improving the user experience by fixing the problem of the page scrolling down when filling in the form to add an offer.
 + Providing clear and relevant feedback on actions such as validation or confirmation messages.
 + Adding field validation when filling in a candidate profile in the user's account section.
@@ -476,7 +476,28 @@ Obecnie jestem w trakcie zmiany mojej ścieżki zawodowej. Szukam więc wszelkic
 + Option to add several similar products from the same category at once.
 + Option for bidding on items by buyers.
 + A feature that would allow users to view listings on the map, making it easier to find offers in their area.
-+ Option to join groups and conversations for people interested in a particular category of items. 
++ Option to join groups and conversations for people interested in a particular category of items, so that they can share their opinions and experiences.
+
+### 5️⃣ What differences do you notice between testing a web application and a native application?
+
+🔸 Testing native applications should involve testing on multiple devices and operating systems, which can be more time-consuming than testing a web application. On the other hand, web apps need to be tested on different browsers, devices, and operating systems.
+
+🔸 Testing native applications are different because native applications can access device-specific features and data, such as the camera, contacts, push notifications, and GPS, whereas web applications do not have direct access to these components.
+
+🔸 Web applications have a common user interface that runs on all browsers, while native applications have a platform-specific user interface. Native applications have a simpler and more intuitive user interface, as this allows the application to be more user-friendly. Access to the main functions must be easy and quick. Navigation should also be intuitive and easily accessible. This is particularly important for mobile devices, where screen size is limited and users are more likely to use apps on the go, etc.
+
+🔸 Testing for web applications includes testing page load times, web speed, and the general responsiveness of the application. On the other hand, testing for native apps includes testing for battery, memory, and processor usage.
+
+🔸 Web apps can be tested using browser-based tools, while native apps require specialized testing tools.
+
+📱 In addition, in testing mobile applications, attention should be paid to: 
++ Verification of the navigation of the application, whether it is intuitive, or easily usable.
++ Verify that applications can be seamlessly downloaded to the device, installed, and run on different mobile device configurations. 
++ Verification that updates install correctly, work, and are compatible with different versions of operating systems. 
++ Verification of device resources, e.g.: lack of installation capacity, and possible collisions with other installed applications. 
++ Verification of GUI on various screen resolutions and sizes.
++ Verification of the responsiveness of the application.
++ Verification of landscape and portrait orientation.
 
 ## ✔️<a name="task4_04">Subtask 4</a>
 
