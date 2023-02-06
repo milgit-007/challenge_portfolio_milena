@@ -430,7 +430,7 @@ Obecnie jestem w trakcie zmiany mojej ścieżki zawodowej. Szukam więc wszelkic
 
 ## ✔️<a name="task4_03">Subtask 3</a>
 
-![](https://blog.reallife.ws/wp-content/uploads/2021/01/olx-logo-20F1656D13-seeklogo.com_.png)
+![](https://github.com/milgit-007/challenge_portfolio_milena/blob/main/Screenshots/olx-logo.png)
 
 ### 1️⃣ What is this application used for? What is the purpose of this application?
 
