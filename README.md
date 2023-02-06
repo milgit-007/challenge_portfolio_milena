@@ -1,6 +1,8 @@
-# 💻 TASK 1 💻
+
 
 ### 📜SPIS TREŚCI:
+
+### ➡️ TASK 1 
 
 ### ✔️ [Subtask 1](#subtask1)
 
@@ -14,12 +16,46 @@
 + [4. Ocena interfejsu aplikacji.](#zad4)
 + [5. Potencjalne błędy.](#zad5)
 
+### ➡️ TASK 2
+
+### ✔️ [Subtask 1](#task2_01) 
+
+### ✔️ [Subtask 2](#task2_02)
+
+### ✔️ [Subtask 3](#task2_03)
+
+### ✔️ [Subtask 4](#task2_04)
+
+### ➡️ TASK 3
+
+### ✔️ [Subtask 1](#task3_01) 
+
+### ✔️ [Subtask 2](#task3_02)
+
+### ✔️ [Subtask 3](#task3_03)
+
+### ✔️ [Subtask 4](#task3_04)
+
+
+### ➡️ TASK 
+
+### ✔️ [Subtask 1](#task4_01) 
+
+### ✔️ [Subtask 2](#task4_02)
+
+### ✔️ [Subtask 3](#task4_03)
+
+### ✔️ [Subtask 4](#task4_04)
+
+<hr>
+
+# 💻 TASK 1 💻
+
 ## ✔️<a name="subtask1">Subtask 1</a>
 
 10 punktów 🙂
 
 ## ✔️<a name="subtask3">Subtask 3</a>
-
 
 <b>Cześć, jestem Milena.</b>
 
@@ -29,7 +65,7 @@ Obecnie jestem w trakcie zmiany mojej ścieżki zawodowej. Szukam więc wszelkic
 
 ### <a name="zad1">1. Na czym polega ta aplikacja? Do czego służy?</a>
 
-➡️ Scouts Panel - jest to aplikacja, która umożliwia osobom poszukującym uzdolnionych piłkarzy ('łowcy talentów' - ang. scouts) przeglądanie zapisanych w bazie zawodników. Mają oni dostęp do wielu informacji dotyczących piłkarzy, takich jak np.: dane kontaktowe, pozycja zawodnika, klub, w którym występuje, parametry fizyczne itd. Aplikacja zapewnia im również możliwość dodania nowego gracza, a także edycji wprowadzonych danych. Dzięki aplikacji, 'łowcy talentów' mogą śledzić informacje dotyczące rozegranych przez danego piłkarza meczów oraz dodać i edytować mecz. Mają oni także dostęp do raportów - mogą je przeglądać, tworzyć i edytować.
+➡️ Scouts Panel ⚽ - jest to aplikacja, która umożliwia osobom poszukującym uzdolnionych piłkarzy ('łowcy talentów' - ang. scouts) przeglądanie zapisanych w bazie zawodników. Mają oni dostęp do wielu informacji dotyczących piłkarzy, takich jak np.: dane kontaktowe, pozycja zawodnika, klub, w którym występuje, parametry fizyczne itd. Aplikacja zapewnia im również możliwość dodania nowego gracza, a także edycji wprowadzonych danych. Dzięki aplikacji, 'łowcy talentów' mogą śledzić informacje dotyczące rozegranych przez danego piłkarza meczów oraz dodać i edytować mecz. Mają oni także dostęp do raportów - mogą je przeglądać, tworzyć i edytować.
 
 <hr>
 
@@ -308,6 +344,169 @@ Obecnie jestem w trakcie zmiany mojej ścieżki zawodowej. Szukam więc wszelkic
 🐞 Na stronie edycji raportu przycisk 'SAVE', ze względu na swoje zdefiniowane położenie, przy przewijaniu strony, nachodzi na inne elementy.
 
 ![](https://github.com/milgit-007/challenge_portfolio_milena/blob/main/Screenshots/BUG-raport_przycisk_save_nachodzi_na_inne_elementy.png)
+
+<hr>
+
+# 💻 TASK 2 💻
+
+## ✔️<a name="task2_01">Subtask 1</a>
+
+### 📁 [Pisanie przypadków testowych na podstawie User Story](https://docs.google.com/spreadsheets/d/1rBmQfs4Acsg6MUCn8uuYeGAkeGYqnxBsLcjCWMfGNps/edit#gid=0)
+
+## ✔️<a name="task2_02">Subtask 2</a>
+
+### 📁 [Pisanie przypadków testowych na podstawie 'własnych doświadczeń'](https://docs.google.com/spreadsheets/d/1jU3SUgaWm0FiRyUpTnnJ7LiWlG9B46tyOAGxn2N8nM0/edit#gid=764302285)
+
+## ✔️<a name="task2_03">Subtask 3</a>
+
+![](https://media.makeameme.org/created/tests-tests-everywhere-ikkczl.jpg)
+
+
+### 👉 Why we should write test cases? Why test cases are important? 
+
+📌 Test cases provide a structured approach to testing and ensure that all important areas of the software are covered and that testing is systematic and thorough.
+
+📌 Test cases guarantee that software meets its requirements by verifying the software behaves as expected.
+
+📌 Using test cases, testers can track progress and measure results, and can create test reports based on test results.
+
+📌 Test cases, providing a common understanding of what should be tested, improving communication and teamwork.
+
+📌 The purpose of test cases is also to help identify and reproduce bugs by providing clear steps on how to replicate them.
+
+📌 Test cases can be useful for regression testing as well.
+
+📌 When writing test cases, we can identify edge cases and negative scenarios that need to be considered when testing the software.
+
+📌 Test cases can be useful when converting tests into automated scripts.
+
+📌 Test cases can be a very good source of information about the system for new team members.
+
+📌 Test cases can also be used in acceptance testing to confirm that the application works as expected.
+
+📌 When writing test cases based on requirements, user stories and acceptance criteria, we can find defects and inconsistencies in them.
+
+📌 By writing test cases, we can prepare test data that may be needed during test execution.
+
+## ✔️<a name="task2_04">Subtask 4</a>
+
+### 📁 [Pick Eat Up - test cases](https://docs.google.com/spreadsheets/d/1p0qtzf-GonfvHYDX-CW0mW0lt6H0xA5zIXGsgtavdUg/edit#gid=0)
+
+<hr>
+
+# 💻 TASK 3 💻
+
+## ✔️<a name="task3_01">Subtask 1</a>
+
+### 📁 [Formatka do zgłaszania błędów](https://docs.google.com/spreadsheets/d/1LczMRwB2G6M3G79CQN9x3UoWwBZQwXsAaeiIUMewWcY/edit#gid=142669186)
+
+## ✔️<a name="task3_02">Subtask 2</a>
+
+### 📁 [Wykonanie przypadków testowych napisanych na podstawie User Story](https://docs.google.com/spreadsheets/d/1Lxvl5lHW2tqgAJVLrWT3dhdB5jVweaJiMbZk1CDeLQs/edit?usp=share_link)
+
+### 📁 [Wykonanie przypadków testowych napisanych na podstawie 'własnych doświadczeń'](https://docs.google.com/spreadsheets/d/1Etp_z5JsIklDq-6SHOj0OC7Tb2CBi-pcsM996rsNoEc/edit?usp=share_link)
+
+### 📁 [Raportowanie błędów](https://docs.google.com/spreadsheets/d/1LczMRwB2G6M3G79CQN9x3UoWwBZQwXsAaeiIUMewWcY/edit#gid=976627270)
+
+## ✔️<a name="task3_03">Subtask 3</a>
+
+### 📁 [Raport z testów](https://docs.google.com/document/d/1oXkOWjZgBjTzP-3KQuXjIUv_hPcjwA61mI8LdLvpZgA/edit?usp=share_link)
+
+## ✔️<a name="task3_04">Subtask 4</a>
+
+### 📁 [Exploratory testing - Intellectual Tour 💡](https://docs.google.com/spreadsheets/d/1FLA8Eiy_HHp-hLkXB-UcoXh6t79-7fyzNsfE0GA-H0w/edit?usp=share_link)
+
+<hr>
+
+# 💻 TASK 4 💻
+
+## ✔️<a name="task4_01">Subtask 1</a>
+
+### 📁 [Formatka do zgłaszania błędów dla aplikacji mobilnej](https://docs.google.com/spreadsheets/d/1R_yWdkP4XF8otJ9yEAID0kaVwPvEB2_pgyNP5vC7vtU/edit#gid=0)
+
+## ✔️<a name="task4_02">Subtask 2</a>
+
+### 📁 [Testowanie eksploracyjne aplikacji OLX i raportowanie błędów](https://docs.google.com/spreadsheets/d/1R_yWdkP4XF8otJ9yEAID0kaVwPvEB2_pgyNP5vC7vtU/edit#gid=622446418)
+
+## ✔️<a name="task4_03">Subtask 3</a>
+
+![](https://blog.reallife.ws/wp-content/uploads/2021/01/olx-logo-20F1656D13-seeklogo.com_.png)
+
+### 1️⃣ What is this application used for? What is the purpose of this application?
+
+<b> 🔶 OLX - is an application that allows users to buy and sell a wide range of new or second-hand products and services. The application makes easy and convenient transactions between buyers and sellers. The purpose of OLX is to connect buyers and sellers, and provide an easy-to-use platform for users to buy and sell goods. The application has many functionalities:</b>
+
+🔹 Users can create an account, also via their email or social media.
+
+🔹 Users can easily add their goods and services for sale by creating an offer with details such as product title, category, description, price, photos, localization, and contact information. 
+
+🔹 Users can also browse items - the application provides search functionality, as well as filter offers to help users fast find what they are looking for. Users can search for products for specific keywords and filter the results based on different criteria like category, location, price, etc. The application also provides options to sort results by cheapest, most expensive, newest, or based on the user's preference. In addition, the application can use the user's location to show him relevant offers in his area.
+
+🔹 Besides, users can save their favorite offers for quick access later, as well as save their observed searches.
+
+🔹 Users can communicate with each other directly within the application to ask questions, negotiate prices, discuss product details, and so on.
+
+🔹 The application allows secure in-app payments using various payment methods, making it easy to complete transactions securely and efficiently.
+
+🔹 The application has a user profile section that allows users to view and manage their listings, messages, payments, and settings. Here users can manage their listings, including editing, deleting, or marking them as sold. In addition, they can create a candidate profile, view matched job offers, apply for jobs, and browse sent job applications. Users can set alerts to receive notifications of new offers that match their preferences.
+
+🔹 The application offers customer support through a dedicated help center and a contact form for users to get answers to their questions and solve any problems.
+
+### 2️⃣ Who are the end users of the application?
+
+👥 The OLX application is targeted to a wide range of users, including individuals and businesses. The application allows them to buy and sell used or new items from various categories such as automotive, property, electronics, fashion, etc. They can easily add their items for sale, browse other users' listings and communicate with potential buyers. They can also search for work opportunities and offer their services.
+
+### 3️⃣ In your opinion, is the application user friendly?
+
+🚀 The application has a user-friendly interface, making navigation easy and effortless. The layout is intuitive, and I can quickly figure out how to use the application and find the necessary functionalities. Adding offers through the application is simple, and the form can be filled out efficiently. Unfortunately, scrolling down when filling in the offer-adding form is problematic, and makes it difficult to complete the form by entering all required information, which sometimes even resulted in my having to leave the offer-adding page. In addition, clearer feedback on actions like validation messages or confirmations would be useful, because they don't always accurately reflect the situation. A positive point of the application is the ability to personalize the interface, notifications, or settings, including the option to switch between dark and light mode.
+
+### 4️⃣ How would you improve the application? Do you have any ideas for additional functionality?
+
+ ❗ I have a few suggestion that can be improve the OLX application:
+
++ Improving form security to prevent the use of HTML entities and tags and other invalid data.
++ Verifying added listings to ensure that the added details, including price, accurately reflect the products.
++ Improving the user experience by fixing the problem of the page scrolling down when filling in the form to add an offer.
++ Providing clear and relevant feedback on actions such as validation or confirmation messages.
++ Adding field validation when filling in a candidate profile in the user's account section.
++ Solving the problem of not being able to change the display of offers on the filter setting page.
+
+➕ I have several potential additional functionalities that could be added to the OLX application:
+
++ Option to add several similar products from the same category at once.
++ Option for bidding on items by buyers.
++ A feature that would allow users to view listings on the map, making it easier to find offers in their area.
++ Option to join groups and conversations for people interested in a particular category of items, so that they can share their opinions and experiences.
+
+### 5️⃣ What differences do you notice between testing a web application and a native application?
+
+🔸 Testing native applications should involve testing on multiple devices and operating systems, which can be more time-consuming than testing a web application. On the other hand, web apps need to be tested on different browsers, devices, and operating systems.
+
+🔸 Testing native applications are different because native applications can access device-specific features and data, such as the camera, contacts, push notifications, and GPS, whereas web applications do not have direct access to these components.
+
+🔸 Web applications have a common user interface that runs on all browsers, while native applications have a platform-specific user interface. Native applications have a simpler and more intuitive user interface, as this allows the application to be more user-friendly. Access to the main functions must be easy and quick. Navigation should also be intuitive and easily accessible. This is particularly important for mobile devices, where screen size is limited and users are more likely to use apps on the go, etc.
+
+🔸 Testing for web applications includes testing page load times, web speed, and the general responsiveness of the application. On the other hand, testing for native apps includes testing for battery, memory, and processor usage.
+
+🔸 Web apps can be tested using browser-based tools, while native apps require specialized testing tools.
+
+📱 In addition, in testing mobile applications, attention should be paid to: 
++ Verification of the navigation of the application, whether it is intuitive, or easily usable.
++ Verify that applications can be seamlessly downloaded to the device, installed, and run on different mobile device configurations. 
++ Verification that updates install correctly, work, and are compatible with different versions of operating systems. 
++ Verification of device resources, e.g.: lack of installation capacity, and possible collisions with other installed applications. 
++ Verification of GUI on various screen resolutions and sizes.
++ Verification of the responsiveness of the application.
++ Verification of landscape and portrait orientation.
+
+## ✔️<a name="task4_04">Subtask 4</a>
+
+### 📁 []()
+
+
+
+
+
 
 
 
