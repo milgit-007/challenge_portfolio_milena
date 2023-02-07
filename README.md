@@ -468,7 +468,8 @@ Obecnie jestem w trakcie zmiany mojej ścieżki zawodowej. Szukam więc wszelkic
 + Verifying added listings to ensure that the added details, including price, accurately reflect the products.
 + Improving the user experience by fixing the problem of the page scrolling down when filling in the form to add an offer.
 + Providing clear and relevant feedback on actions such as validation or confirmation messages.
-+ Adding field validation when filling in a candidate profile in the user's account section.
++ Adding field validation when filling in some fields.
++ Changing the input types as numeric by default if the valid values are numbers.
 + Solving the problem of not being able to change the display of offers on the filter setting page.
 
 ➕ I have several potential additional functionalities that could be added to the OLX application:
