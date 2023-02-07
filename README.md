@@ -502,7 +502,7 @@ Obecnie jestem w trakcie zmiany mojej ścieżki zawodowej. Szukam więc wszelkic
 
 ## ✔️<a name="task4_04">Subtask 4</a>
 
-### 📁 []()
+### 🔗 [SwipeTo - Bug Reports - Jira](https://testowanie-225.atlassian.net/jira/software/projects/CPP/boards/4)
 
 
 
