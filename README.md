@@ -2,7 +2,7 @@
 
 ### 📜SPIS TREŚCI:
 
-### ➡️ TASK 1 
+### ➡️ TASK 1 - Exploratory Testing of the Scouts Panel Application 
 
 ### ✔️ [Subtask 1](#subtask1)
 
@@ -16,7 +16,7 @@
 + [4. Ocena interfejsu aplikacji.](#zad4)
 + [5. Potencjalne błędy.](#zad5)
 
-### ➡️ TASK 2
+### ➡️ TASK 2 - Test Cases 
 
 ### ✔️ [Subtask 1](#task2_01) 
 
@@ -26,7 +26,7 @@
 
 ### ✔️ [Subtask 4](#task2_04)
 
-### ➡️ TASK 3
+### ➡️ TASK 3 - Bug Reports and Test Report 
 
 ### ✔️ [Subtask 1](#task3_01) 
 
@@ -37,7 +37,7 @@
 ### ✔️ [Subtask 4](#task3_04)
 
 
-### ➡️ TASK 4
+### ➡️ TASK 4 -  Exploratory Testing and Bug Reports for the OLX Mobile Application and SwipeTo 
 
 ### ✔️ [Subtask 1](#task4_01) 
 
@@ -47,15 +47,13 @@
 
 ### ✔️ [Subtask 4](#task4_04)
 
-### ➡️ TASK 5
+### ➡️ TASK 5 - SQL - part 1 
 
 ### ✔️ [Subtask 1](#task5_01) 
 
 ### ✔️ [Subtask 2](#task5_02)
 
 ### ✔️ [Subtask 3](#task5_03)
-
-### ✔️ [Subtask 4](#task5_04)
 
 
 <hr>
@@ -569,7 +567,7 @@ Obecnie jestem w trakcie zmiany mojej ścieżki zawodowej. Szukam więc wszelkic
 
 ![](https://github.com/milgit-007/challenge_portfolio_milena/blob/main/Task%205/kurs_sql.png)
 
-## ✔️<a name="task5_02">Subtask 3</a>
+## ✔️<a name="task5_03">Subtask 3</a>
 
 ### Zapytania SQL:
 
