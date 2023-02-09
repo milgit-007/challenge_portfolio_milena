@@ -420,17 +420,18 @@ Obecnie jestem w trakcie zmiany mojej ścieżki zawodowej. Szukam więc wszelkic
 
 # 💻 TASK 4 💻
 
+![](https://github.com/milgit-007/challenge_portfolio_milena/blob/main/Screenshots/olx-logo.png)
+
 ## ✔️<a name="task4_01">Subtask 1</a>
 
-### 📁 [Formatka do zgłaszania błędów dla aplikacji mobilnej](https://docs.google.com/spreadsheets/d/1R_yWdkP4XF8otJ9yEAID0kaVwPvEB2_pgyNP5vC7vtU/edit#gid=0)
+### 📁 [Mobile Application Bug Report Template](https://docs.google.com/spreadsheets/d/1R_yWdkP4XF8otJ9yEAID0kaVwPvEB2_pgyNP5vC7vtU/edit#gid=0)
 
 ## ✔️<a name="task4_02">Subtask 2</a>
 
-### 📁 [Testowanie eksploracyjne aplikacji OLX i raportowanie błędów](https://docs.google.com/spreadsheets/d/1R_yWdkP4XF8otJ9yEAID0kaVwPvEB2_pgyNP5vC7vtU/edit#gid=622446418)
+### 📁 [Exploratory Testing of the OLX Application and Bug Reports](https://docs.google.com/spreadsheets/d/1R_yWdkP4XF8otJ9yEAID0kaVwPvEB2_pgyNP5vC7vtU/edit#gid=622446418)
 
 ## ✔️<a name="task4_03">Subtask 3</a>
 
-![](https://github.com/milgit-007/challenge_portfolio_milena/blob/main/Screenshots/olx-logo.png)
 
 ### 1️⃣ What is this application used for? What is the purpose of this application?
 
@@ -502,7 +503,44 @@ Obecnie jestem w trakcie zmiany mojej ścieżki zawodowej. Szukam więc wszelkic
 
 ## ✔️<a name="task4_04">Subtask 4</a>
 
+![](https://github.com/milgit-007/challenge_portfolio_milena/blob/main/Task%204/swipeto.jpg)
+
+
 ### 🔗 [SwipeTo - Bug Reports - Jira](https://testowanie-225.atlassian.net/jira/software/projects/CPP/boards/4)
+
+### 📄 Bug Report Template in Jira
+
+![](https://github.com/milgit-007/challenge_portfolio_milena/blob/main/Task%204/CPP-1_TEMPLATE.png)
+
+### 🐞 Bug Reports in Jira
+
+![](https://github.com/milgit-007/challenge_portfolio_milena/blob/main/Task%204/CPP-2.png)
+
+![](https://github.com/milgit-007/challenge_portfolio_milena/blob/main/Task%204/CPP-3.png)
+
+![](https://github.com/milgit-007/challenge_portfolio_milena/blob/main/Task%204/CPP-4.png)
+
+![](https://github.com/milgit-007/challenge_portfolio_milena/blob/main/Task%204/CPP-5.png)
+
+![](https://github.com/milgit-007/challenge_portfolio_milena/blob/main/Task%204/CPP-6.png)
+
+![](https://github.com/milgit-007/challenge_portfolio_milena/blob/main/Task%204/CPP-7.png)
+
+![](https://github.com/milgit-007/challenge_portfolio_milena/blob/main/Task%204/CPP-8.png)
+
+![](https://github.com/milgit-007/challenge_portfolio_milena/blob/main/Task%204/CPP-9.png)
+
+![](https://github.com/milgit-007/challenge_portfolio_milena/blob/main/Task%204/CPP-10.png)
+
+![](https://github.com/milgit-007/challenge_portfolio_milena/blob/main/Task%204/CPP-11.png)
+
+![](https://github.com/milgit-007/challenge_portfolio_milena/blob/main/Task%204/CPP-12.png)
+
+![](https://github.com/milgit-007/challenge_portfolio_milena/blob/main/Task%204/CPP-13.png)
+
+![](https://github.com/milgit-007/challenge_portfolio_milena/blob/main/Task%204/CPP-14.png)
+
+![](https://github.com/milgit-007/challenge_portfolio_milena/blob/main/Task%204/CPP-15.png)
 
 
 
