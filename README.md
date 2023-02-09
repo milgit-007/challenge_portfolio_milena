@@ -557,6 +557,8 @@ Obecnie jestem w trakcie zmiany mojej ścieżki zawodowej. Szukam więc wszelkic
 
 # 💻 TASK 5 💻
 
+![](https://github.com/milgit-007/challenge_portfolio_milena/blob/main/Task%205/sql.png)
+
 ## ✔️<a name="task5_01">Subtask 1</a>
 
 ### 🧠 Operatory/zapytania, których się nauczyłam:
@@ -565,7 +567,7 @@ Obecnie jestem w trakcie zmiany mojej ścieżki zawodowej. Szukam więc wszelkic
 
 ### 📚 Konfiguracja środowiska i import bazy danych.
 
-![]()
+![](https://github.com/milgit-007/challenge_portfolio_milena/blob/main/Task%205/kurs_sql.png)
 
 ## ✔️<a name="task5_02">Subtask 3</a>
 
@@ -578,7 +580,7 @@ SELECT *
 FROM actors
 ORDER BY surname ASC;
 ```
-![]()
+![](https://github.com/milgit-007/challenge_portfolio_milena/blob/main/Task%205/1.png)
 
 🩸 Wyświetl film, który powstał w 2019 roku.
 
@@ -587,7 +589,7 @@ SELECT *
 FROM movies 
 WHERE year_of_production = 2019;
 ```
-![]()
+![](https://github.com/milgit-007/challenge_portfolio_milena/blob/main/Task%205/2.png)
 
 🩸 Wyświetl wszystkie filmy, które powstały między 1900, a 1999 rokiem.
 
@@ -596,7 +598,7 @@ SELECT *
 FROM movies 
 WHERE year_of_production BETWEEN 1900 AND 1999;
 ```
-![]()
+![](https://github.com/milgit-007/challenge_portfolio_milena/blob/main/Task%205/3.png)
 
 🩸 Wyświetl jedynie tytuł i cenę filmów, które kosztują poniżej 7$.
 
@@ -606,7 +608,7 @@ SELECT title,
 FROM movies 
 WHERE price < 7;
 ```
-![]()
+![](https://github.com/milgit-007/challenge_portfolio_milena/blob/main/Task%205/4.png)
 
 🩸 Użyj operatora logicznego AND, aby wyświetlić aktorów o actor_id pomiędzy 4-7 (4 i 7 powinny się wyświetlać). NIE UŻYWAJ operatora BETWEEN.
 
@@ -615,7 +617,7 @@ SELECT *
 FROM actors 
 WHERE actor_id >= 4 AND actor_id <= 7;
 ```
-![]()
+![](https://github.com/milgit-007/challenge_portfolio_milena/blob/main/Task%205/5.png)
 
 🩸 Wyświetl klientów o id 2,4,6 wykorzystaj do tego operator logiczny.
 
@@ -624,7 +626,7 @@ SELECT *
 FROM customers 
 WHERE customer_id = 2 OR customer_id = 4 OR customer_id = 6;
 ```
-![]()
+![](https://github.com/milgit-007/challenge_portfolio_milena/blob/main/Task%205/6.png)
 
 🩸 Wyświetl klientów o id 1,3,5 wykorzystaj do tego operator IN.
 
@@ -633,7 +635,7 @@ SELECT *
 FROM customers 
 WHERE customer_id IN (1,3,5);
 ```
-![]()
+![](https://github.com/milgit-007/challenge_portfolio_milena/blob/main/Task%205/7.png)
 
 🩸 Wyświetl dane wszystkich osób z tabeli ‘actors’, których imię zaczyna się od ciągu “An”.
 
@@ -642,7 +644,7 @@ SELECT *
 FROM actors
 WHERE name LIKE 'An%';
 ```
-![]()
+![](https://github.com/milgit-007/challenge_portfolio_milena/blob/main/Task%205/8.png)
 
 🩸 Wyświetl dane klienta, który nie ma podanego adresu email.
 
@@ -651,7 +653,7 @@ SELECT *
 FROM customers
 WHERE email IS NULL;
 ```
-![]()
+![](https://github.com/milgit-007/challenge_portfolio_milena/blob/main/Task%205/9.png)
 
 🩸 Wyświetl wszystkie filmy, których cena wynosi powyżej 9$ oraz ich movie_id mieści się pomiędzy 2 i 8.
 
@@ -660,7 +662,7 @@ SELECT *
 FROM movies
 WHERE price > 9 AND movie_id BETWEEN 2 AND 8;
 ```
-![]()
+![](https://github.com/milgit-007/challenge_portfolio_milena/blob/main/Task%205/10.png)
 
 
 
