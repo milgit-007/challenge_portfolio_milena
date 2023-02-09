@@ -47,6 +47,17 @@
 
 ### ✔️ [Subtask 4](#task4_04)
 
+### ➡️ TASK 5
+
+### ✔️ [Subtask 1](#task5_01) 
+
+### ✔️ [Subtask 2](#task5_02)
+
+### ✔️ [Subtask 3](#task5_03)
+
+### ✔️ [Subtask 4](#task5_04)
+
+
 <hr>
 
 # 💻 TASK 1 💻
@@ -541,6 +552,117 @@ Obecnie jestem w trakcie zmiany mojej ścieżki zawodowej. Szukam więc wszelkic
 ![](https://github.com/milgit-007/challenge_portfolio_milena/blob/main/Task%204/CPP-14.png)
 
 ![](https://github.com/milgit-007/challenge_portfolio_milena/blob/main/Task%204/CPP-15.png)
+
+<hr>
+
+# 💻 TASK 5 💻
+
+## ✔️<a name="task5_01">Subtask 1</a>
+
+### 🧠 Operatory/zapytania, których się nauczyłam:
+
+## ✔️<a name="task5_02">Subtask 2</a>
+
+### 📚 Konfiguracja środowiska i import bazy danych.
+
+![]()
+
+## ✔️<a name="task5_02">Subtask 3</a>
+
+### Zapytania SQL:
+
+🩸 Wyświetl tabelę 'actors' w kolejności alfabetycznej, sortując po kolumnie surname.
+
+```sql
+SELECT * 
+FROM actors
+ORDER BY surname ASC;
+```
+![]()
+
+🩸 Wyświetl film, który powstał w 2019 roku.
+
+```sql
+SELECT * 
+FROM movies 
+WHERE year_of_production = 2019;
+```
+![]()
+
+🩸 Wyświetl wszystkie filmy, które powstały między 1900, a 1999 rokiem.
+
+```sql
+SELECT * 
+FROM movies 
+WHERE year_of_production BETWEEN 1900 AND 1999;
+```
+![]()
+
+🩸 Wyświetl jedynie tytuł i cenę filmów, które kosztują poniżej 7$.
+
+```sql
+SELECT title,
+       price 
+FROM movies 
+WHERE price < 7;
+```
+![]()
+
+🩸 Użyj operatora logicznego AND, aby wyświetlić aktorów o actor_id pomiędzy 4-7 (4 i 7 powinny się wyświetlać). NIE UŻYWAJ operatora BETWEEN.
+
+```sql
+SELECT * 
+FROM actors 
+WHERE actor_id >= 4 AND actor_id <= 7;
+```
+![]()
+
+🩸 Wyświetl klientów o id 2,4,6 wykorzystaj do tego operator logiczny.
+
+```sql
+SELECT * 
+FROM customers 
+WHERE customer_id = 2 OR customer_id = 4 OR customer_id = 6;
+```
+![]()
+
+🩸 Wyświetl klientów o id 1,3,5 wykorzystaj do tego operator IN.
+
+```sql
+SELECT * 
+FROM customers 
+WHERE customer_id IN (1,3,5);
+```
+![]()
+
+🩸 Wyświetl dane wszystkich osób z tabeli ‘actors’, których imię zaczyna się od ciągu “An”.
+
+```sql
+SELECT * 
+FROM actors
+WHERE name LIKE 'An%';
+```
+![]()
+
+🩸 Wyświetl dane klienta, który nie ma podanego adresu email.
+
+```sql
+SELECT * 
+FROM customers
+WHERE email IS NULL;
+```
+![]()
+
+🩸 Wyświetl wszystkie filmy, których cena wynosi powyżej 9$ oraz ich movie_id mieści się pomiędzy 2 i 8.
+
+```sql
+SELECT * 
+FROM movies
+WHERE price > 9 AND movie_id BETWEEN 2 AND 8;
+```
+![]()
+
+
 
 
 
