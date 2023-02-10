@@ -561,6 +561,52 @@ Obecnie jestem w trakcie zmiany mojej ścieżki zawodowej. Szukam więc wszelkic
 
 ### 🧠 Operatory/zapytania, których się nauczyłam:
 
+```sql
+SELECT (DISTINCT) column_1, column_2 AS alias_name, ...
+FROM table_name;
+
+SELECT column_1, column_2, ...
+FROM table_name
+WHERE condition_1 AND condition_2 |
+WHERE condition_1 OR condition_2 |
+WHERE columnn_1 (NOT) LIKE pattern |
+WHERE column_1 (NOT) IN (value_1, value_2, ...) |
+WHERE column_1 (NOT) BETWEEN value_1 AND value_2 |
+WHERE column_1 IS (NOT) NULL;
+
+SELECT column_1, column_2, ...
+FROM table_name
+ORDER BY column_1 ASC|DESC;
+
+INSERT INTO table_name (column_1, column_2, column_3, ...)
+VALUES (value_1, value_2, value_3, ...);
+
+UPDATE table_name
+SET column_1 = value_1, column_2 = value_2, ...
+WHERE condition;
+
+DELETE FROM table_name 
+WHERE condition;
+
+SELECT column_1, MIN(column_2) |
+MAX(column_2) |
+COUNT(column_2) |
+AVG(column_2) |
+SUM(column_2)
+FROM table_name
+GROUP BY column_1
+HAVING condition;
+
+SELECT table_1.column_1, table_2.column_2
+FROM table1
+(INNER/LEFT/RIGHT/FULL OUTER) JOIN table_2
+ON table_1.column = table_2.column;
+
+SELECT column_name(s) FROM table_1
+UNION (ALL)
+SELECT column_name(s) FROM table_2;
+```
+
 ## ✔️<a name="task5_02">Subtask 2</a>
 
 ### 📚 Konfiguracja środowiska i import bazy danych.
