@@ -562,9 +562,11 @@ Obecnie jestem w trakcie zmiany mojej ścieżki zawodowej. Szukam więc wszelkic
 ### 🧠 Operatory/zapytania, których się nauczyłam:
 
 ```sql
+-- SELECT Queries
 SELECT (DISTINCT) column_1, column_2 AS alias_name, ...
 FROM table_name;
 
+-- WHERE Clause - filtering data
 SELECT column_1, column_2, ...
 FROM table_name
 WHERE condition_1 AND condition_2 |
@@ -574,20 +576,12 @@ WHERE column_1 (NOT) IN (value_1, value_2, ...) |
 WHERE column_1 (NOT) BETWEEN value_1 AND value_2 |
 WHERE column_1 IS (NOT) NULL;
 
+-- Ordering data with the ORDER BY clause
 SELECT column_1, column_2, ...
 FROM table_name
 ORDER BY column_1 ASC|DESC;
 
-INSERT INTO table_name (column_1, column_2, column_3, ...)
-VALUES (value_1, value_2, value_3, ...);
-
-UPDATE table_name
-SET column_1 = value_1, column_2 = value_2, ...
-WHERE condition;
-
-DELETE FROM table_name 
-WHERE condition;
-
+-- Grouping and aggregating data with the GROUP BY and HAVING clauses
 SELECT column_1, MIN(column_2) |
 MAX(column_2) |
 COUNT(column_2) |
@@ -597,14 +591,41 @@ FROM table_name
 GROUP BY column_1
 HAVING condition;
 
+-- INSERT INTO - adding data to a table
+INSERT INTO table_name (column_1, column_2, column_3, ...)
+VALUES (value_1, value_2, value_3, ...);
+
+
+-- UPDATE - modifying data in a table
+UPDATE table_name
+SET column_1 = value_1, column_2 = value_2, ...
+WHERE condition;
+
+-- DELETE - removing data from a table
+DELETE FROM table_name 
+WHERE condition;
+
+-- Joining tables with the JOIN clauses
 SELECT table_1.column_1, table_2.column_2
 FROM table1
 (INNER/LEFT/RIGHT/FULL OUTER) JOIN table_2
 ON table_1.column = table_2.column;
 
+-- Combining data from multiple tables with UNION
 SELECT column_name(s) FROM table_1
 UNION (ALL)
 SELECT column_name(s) FROM table_2;
+
+-- Subqueries in the WHERE/FROM/SELECT clauses
+SELECT column_1, column_2
+FROM table_1
+WHERE column_1 operator (SELECT column_1 FROM table_2 WHERE condition);
+
+SELECT column_1, column_2
+FROM (SELECT column_1, column_2 FROM table_1 WHERE condition) AS temp_table;
+
+SELECT column_1, (SELECT AVG(column_2) FROM table_2 WHERE condition)
+FROM table_1;
 ```
 
 ## ✔️<a name="task5_02">Subtask 2</a>
