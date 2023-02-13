@@ -569,6 +569,7 @@ FROM table_name;
 -- WHERE Clause - filtering data
 SELECT column_1, column_2, ...
 FROM table_name
+WHERE column_1 =/!=/<>/>/>=/</<= value |
 WHERE condition_1 AND condition_2 |
 WHERE condition_1 OR condition_2 |
 WHERE columnn_1 (NOT) LIKE pattern |
@@ -591,10 +592,17 @@ FROM table_name
 GROUP BY column_1
 HAVING condition;
 
+-- Transforming string data with string functions
+SELECT LOWER(column_1), UPPER(column_1), INITCAP(colimn_1), LENGTH(column_1)
+FROM table_name;
+
+-- Mathematical functions
+SELECT CEIL(column_1), FLOOR(column_1), ROUND(column_1, n), TRUNC(column_1, n)
+FROM table_name;
+
 -- INSERT INTO - adding data to a table
 INSERT INTO table_name (column_1, column_2, column_3, ...)
 VALUES (value_1, value_2, value_3, ...);
-
 
 -- UPDATE - modifying data in a table
 UPDATE table_name
