@@ -1,6 +1,6 @@
 
 
-### 📜SPIS TREŚCI:
+# 📜Table of Contents:
 
 ### ➡️ TASK 1 - Exploratory Testing of the Scouts Panel Application 
 
@@ -18,42 +18,42 @@
 
 ### ➡️ TASK 2 - Test Cases 
 
-### ✔️ [Subtask 1](#task2_01) 
+### ✔️ [Subtask 1 - Test Cases Based on User Stories](#task2_01)
 
-### ✔️ [Subtask 2](#task2_02)
+### ✔️ [Subtask 2 - Test Cases Based on 'Own Experience'](#task2_02) 
 
-### ✔️ [Subtask 3](#task2_03)
+### ✔️ [Subtask 3 - Why we should write Test Cases?](#task2_03) 
 
-### ✔️ [Subtask 4](#task2_04)
+### ✔️ [Subtask 4 - Pick Eat Up - Test Cases](#task2_04) 
 
 ### ➡️ TASK 3 - Bug Reports and Test Report 
 
-### ✔️ [Subtask 1](#task3_01) 
+### ✔️ [Subtask 1 - Bug Report Template](#task3_01) 
 
-### ✔️ [Subtask 2](#task3_02)
+### ✔️ [Subtask 2 - Execution of Test Cases and Bug Reports](#task3_02)
 
-### ✔️ [Subtask 3](#task3_03)
+### ✔️ [Subtask 3 - Test Report](#task3_03)
 
-### ✔️ [Subtask 4](#task3_04)
+### ✔️ [Subtask 4 - Exploratory Testing - Intellectual Tour](#task3_04)
 
 
 ### ➡️ TASK 4 -  Exploratory Testing and Bug Reports for the OLX Mobile Application and SwipeTo 
 
-### ✔️ [Subtask 1](#task4_01) 
+### ✔️ [Subtask 1 - Mobile Application Bug Report Template](#task4_01) 
 
-### ✔️ [Subtask 2](#task4_02)
+### ✔️ [Subtask 2 - Exploratory Testing of the OLX Application and Bug Reports](#task4_02)
 
-### ✔️ [Subtask 3](#task4_03)
+### ✔️ [Subtask 3 - OLX Mobile Application Analysis and My Feedback](#task4_03)
 
-### ✔️ [Subtask 4](#task4_04)
+### ✔️ [Subtask 4 - SwipeTo - Bug Reports - Jira](#task4_04)
 
 ### ➡️ TASK 5 - SQL - part 1 
 
-### ✔️ [Subtask 1](#task5_01) 
+### ✔️ [Subtask 1 - SQL Statements I Have Learned](#task5_01) 
 
-### ✔️ [Subtask 2](#task5_02)
+### ✔️ [Subtask 2 - Environment Configuration and Database Import](#task5_02)
 
-### ✔️ [Subtask 3](#task5_03)
+### ✔️ [Subtask 3 - SQL Exercises](#task5_03)
 
 
 <hr>
@@ -360,11 +360,11 @@ Obecnie jestem w trakcie zmiany mojej ścieżki zawodowej. Szukam więc wszelkic
 
 ## ✔️<a name="task2_01">Subtask 1</a>
 
-### 📁 [Pisanie przypadków testowych na podstawie User Story](https://docs.google.com/spreadsheets/d/1rBmQfs4Acsg6MUCn8uuYeGAkeGYqnxBsLcjCWMfGNps/edit#gid=0)
+### 📁 [Test Cases Based on User Stories](https://docs.google.com/spreadsheets/d/1rBmQfs4Acsg6MUCn8uuYeGAkeGYqnxBsLcjCWMfGNps/edit#gid=0)
 
 ## ✔️<a name="task2_02">Subtask 2</a>
 
-### 📁 [Pisanie przypadków testowych na podstawie 'własnych doświadczeń'](https://docs.google.com/spreadsheets/d/1jU3SUgaWm0FiRyUpTnnJ7LiWlG9B46tyOAGxn2N8nM0/edit#gid=764302285)
+### 📁 [Test Cases Based on 'Own Experience'](https://docs.google.com/spreadsheets/d/1jU3SUgaWm0FiRyUpTnnJ7LiWlG9B46tyOAGxn2N8nM0/edit#gid=764302285)
 
 ## ✔️<a name="task2_03">Subtask 3</a>
 
@@ -399,7 +399,7 @@ Obecnie jestem w trakcie zmiany mojej ścieżki zawodowej. Szukam więc wszelkic
 
 ## ✔️<a name="task2_04">Subtask 4</a>
 
-### 📁 [Pick Eat Up - test cases](https://docs.google.com/spreadsheets/d/1p0qtzf-GonfvHYDX-CW0mW0lt6H0xA5zIXGsgtavdUg/edit#gid=0)
+### 📁 [Pick Eat Up - Test Cases](https://docs.google.com/spreadsheets/d/1p0qtzf-GonfvHYDX-CW0mW0lt6H0xA5zIXGsgtavdUg/edit#gid=0)
 
 <hr>
 
@@ -407,23 +407,23 @@ Obecnie jestem w trakcie zmiany mojej ścieżki zawodowej. Szukam więc wszelkic
 
 ## ✔️<a name="task3_01">Subtask 1</a>
 
-### 📁 [Formatka do zgłaszania błędów](https://docs.google.com/spreadsheets/d/1LczMRwB2G6M3G79CQN9x3UoWwBZQwXsAaeiIUMewWcY/edit#gid=142669186)
+### 📁 [Bug Report Template](https://docs.google.com/spreadsheets/d/1LczMRwB2G6M3G79CQN9x3UoWwBZQwXsAaeiIUMewWcY/edit#gid=142669186)
 
 ## ✔️<a name="task3_02">Subtask 2</a>
 
-### 📁 [Wykonanie przypadków testowych napisanych na podstawie User Story](https://docs.google.com/spreadsheets/d/1Lxvl5lHW2tqgAJVLrWT3dhdB5jVweaJiMbZk1CDeLQs/edit?usp=share_link)
+### 📁 [Execution of Test Cases Written Based on User Stories](https://docs.google.com/spreadsheets/d/1Lxvl5lHW2tqgAJVLrWT3dhdB5jVweaJiMbZk1CDeLQs/edit?usp=share_link)
 
-### 📁 [Wykonanie przypadków testowych napisanych na podstawie 'własnych doświadczeń'](https://docs.google.com/spreadsheets/d/1Etp_z5JsIklDq-6SHOj0OC7Tb2CBi-pcsM996rsNoEc/edit?usp=share_link)
+### 📁 [Execution of Test Cases Written Based on 'Own Experience'](https://docs.google.com/spreadsheets/d/1Etp_z5JsIklDq-6SHOj0OC7Tb2CBi-pcsM996rsNoEc/edit?usp=share_link)
 
-### 📁 [Raportowanie błędów](https://docs.google.com/spreadsheets/d/1LczMRwB2G6M3G79CQN9x3UoWwBZQwXsAaeiIUMewWcY/edit#gid=976627270)
+### 📁 [Bug Reports](https://docs.google.com/spreadsheets/d/1LczMRwB2G6M3G79CQN9x3UoWwBZQwXsAaeiIUMewWcY/edit#gid=976627270)
 
 ## ✔️<a name="task3_03">Subtask 3</a>
 
-### 📁 [Raport z testów](https://docs.google.com/document/d/1oXkOWjZgBjTzP-3KQuXjIUv_hPcjwA61mI8LdLvpZgA/edit?usp=share_link)
+### 📁 [Test Report](https://docs.google.com/document/d/1oXkOWjZgBjTzP-3KQuXjIUv_hPcjwA61mI8LdLvpZgA/edit?usp=share_link)
 
 ## ✔️<a name="task3_04">Subtask 4</a>
 
-### 📁 [Exploratory testing - Intellectual Tour 💡](https://docs.google.com/spreadsheets/d/1FLA8Eiy_HHp-hLkXB-UcoXh6t79-7fyzNsfE0GA-H0w/edit?usp=share_link)
+### 📁 [Exploratory Testing - Intellectual Tour 💡](https://docs.google.com/spreadsheets/d/1FLA8Eiy_HHp-hLkXB-UcoXh6t79-7fyzNsfE0GA-H0w/edit?usp=share_link)
 
 <hr>
 
@@ -466,7 +466,7 @@ Obecnie jestem w trakcie zmiany mojej ścieżki zawodowej. Szukam więc wszelkic
 
 👥 The OLX application is targeted to a wide range of users, including individuals and businesses. The application allows them to buy and sell used or new items from various categories such as automotive, property, electronics, fashion, etc. They can easily add their items for sale, browse other users' listings and communicate with potential buyers. They can also search for work opportunities and offer their services.
 
-### 3️⃣ In your opinion, is the application user friendly?
+### 3️⃣ In your opinion, is the application user-friendly?
 
 🚀 The application has a user-friendly interface, making navigation easy and effortless. The layout is intuitive, and I can quickly figure out how to use the application and find the necessary functionalities. Adding offers through the application is simple, and the form can be filled out efficiently. Unfortunately, scrolling down when filling in the offer-adding form is problematic, and makes it difficult to complete the form by entering all required information, which sometimes even resulted in my having to leave the offer-adding page. In addition, clearer feedback on actions like validation messages or confirmations would be useful, because they don't always accurately reflect the situation. A positive point of the application is the ability to personalize the interface, notifications, or settings, including the option to switch between dark and light mode.
 
@@ -559,7 +559,7 @@ Obecnie jestem w trakcie zmiany mojej ścieżki zawodowej. Szukam więc wszelkic
 
 ## ✔️<a name="task5_01">Subtask 1</a>
 
-### 🧠 Operatory/zapytania, których się nauczyłam:
+### 🧠 SQL Statements I Have Learned:
 
 ```sql
 -- SELECT query:
@@ -638,7 +638,7 @@ FROM table_1;
 
 ## ✔️<a name="task5_02">Subtask 2</a>
 
-### 📚 Konfiguracja środowiska i import bazy danych.
+### 📚 Environment Configuration and Database Import
 
 ![](https://github.com/milgit-007/challenge_portfolio_milena/blob/main/Task%205/kurs_sql.png)
 
