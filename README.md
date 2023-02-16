@@ -53,7 +53,15 @@
 
 ### ✔️ [Subtask 2 - Environment Configuration and Database Import](#task5_02)
 
-### ✔️ [Subtask 3 - SQL Exercises](#task5_03)
+### ✔️ [Subtask 3 - SQL Exercises - part 1](#task5_03)
+
+### ➡️ TASK 6 - SQL - part 2 
+
+### ✔️ [Subtask 1 - SQL Exercises - part 2](#task6_01)
+
+### ✔️ [Subtask 2 - ](#task6_02)
+
+### ✔️ [Subtask 3 - ](#task6_03)
 
 
 <hr>
@@ -646,7 +654,7 @@ FROM table_1;
 
 ### Zapytania SQL:
 
-🩸 Wyświetl tabelę 'actors' w kolejności alfabetycznej, sortując po kolumnie surname.
+🩸 1. Wyświetl tabelę 'actors' w kolejności alfabetycznej, sortując po kolumnie surname.
 
 ```sql
 SELECT * 
@@ -655,7 +663,7 @@ ORDER BY surname ASC;
 ```
 ![](https://github.com/milgit-007/challenge_portfolio_milena/blob/main/Task%205/1.png)
 
-🩸 Wyświetl film, który powstał w 2019 roku.
+🩸 2. Wyświetl film, który powstał w 2019 roku.
 
 ```sql
 SELECT * 
@@ -664,7 +672,7 @@ WHERE year_of_production = 2019;
 ```
 ![](https://github.com/milgit-007/challenge_portfolio_milena/blob/main/Task%205/2.png)
 
-🩸 Wyświetl wszystkie filmy, które powstały między 1900, a 1999 rokiem.
+🩸 3. Wyświetl wszystkie filmy, które powstały między 1900, a 1999 rokiem.
 
 ```sql
 SELECT * 
@@ -673,7 +681,7 @@ WHERE year_of_production BETWEEN 1900 AND 1999;
 ```
 ![](https://github.com/milgit-007/challenge_portfolio_milena/blob/main/Task%205/3.png)
 
-🩸 Wyświetl jedynie tytuł i cenę filmów, które kosztują poniżej 7$.
+🩸 4. Wyświetl jedynie tytuł i cenę filmów, które kosztują poniżej 7$.
 
 ```sql
 SELECT title,
@@ -683,7 +691,7 @@ WHERE price < 7;
 ```
 ![](https://github.com/milgit-007/challenge_portfolio_milena/blob/main/Task%205/4.png)
 
-🩸 Użyj operatora logicznego AND, aby wyświetlić aktorów o actor_id pomiędzy 4-7 (4 i 7 powinny się wyświetlać). NIE UŻYWAJ operatora BETWEEN.
+🩸 5. Użyj operatora logicznego AND, aby wyświetlić aktorów o actor_id pomiędzy 4-7 (4 i 7 powinny się wyświetlać). NIE UŻYWAJ operatora BETWEEN.
 
 ```sql
 SELECT * 
@@ -692,7 +700,7 @@ WHERE actor_id >= 4 AND actor_id <= 7;
 ```
 ![](https://github.com/milgit-007/challenge_portfolio_milena/blob/main/Task%205/5.png)
 
-🩸 Wyświetl klientów o id 2,4,6 wykorzystaj do tego operator logiczny.
+🩸 6. Wyświetl klientów o id 2,4,6 wykorzystaj do tego operator logiczny.
 
 ```sql
 SELECT * 
@@ -701,7 +709,7 @@ WHERE customer_id = 2 OR customer_id = 4 OR customer_id = 6;
 ```
 ![](https://github.com/milgit-007/challenge_portfolio_milena/blob/main/Task%205/6.png)
 
-🩸 Wyświetl klientów o id 1,3,5 wykorzystaj do tego operator IN.
+🩸 7. Wyświetl klientów o id 1,3,5 wykorzystaj do tego operator IN.
 
 ```sql
 SELECT * 
@@ -710,7 +718,7 @@ WHERE customer_id IN (1,3,5);
 ```
 ![](https://github.com/milgit-007/challenge_portfolio_milena/blob/main/Task%205/7.png)
 
-🩸 Wyświetl dane wszystkich osób z tabeli ‘actors’, których imię zaczyna się od ciągu “An”.
+🩸 8. Wyświetl dane wszystkich osób z tabeli ‘actors’, których imię zaczyna się od ciągu “An”.
 
 ```sql
 SELECT * 
@@ -719,7 +727,7 @@ WHERE name LIKE 'An%';
 ```
 ![](https://github.com/milgit-007/challenge_portfolio_milena/blob/main/Task%205/8.png)
 
-🩸 Wyświetl dane klienta, który nie ma podanego adresu email.
+🩸 9. Wyświetl dane klienta, który nie ma podanego adresu email.
 
 ```sql
 SELECT * 
@@ -728,7 +736,7 @@ WHERE email IS NULL;
 ```
 ![](https://github.com/milgit-007/challenge_portfolio_milena/blob/main/Task%205/9.png)
 
-🩸 Wyświetl wszystkie filmy, których cena wynosi powyżej 9$ oraz ich movie_id mieści się pomiędzy 2 i 8.
+🩸 10. Wyświetl wszystkie filmy, których cena wynosi powyżej 9$ oraz ich movie_id mieści się pomiędzy 2 i 8.
 
 ```sql
 SELECT * 
@@ -737,6 +745,119 @@ WHERE price > 9 AND movie_id BETWEEN 2 AND 8;
 ```
 ![](https://github.com/milgit-007/challenge_portfolio_milena/blob/main/Task%205/10.png)
 
+
+# 💻 TASK 6 💻
+
+![MicrosoftSQLServer](https://img.shields.io/badge/Microsoft%20SQL%20Server-CC2927?style=for-the-badge&logo=microsoft%20sql%20server&logoColor=white) ![MySQL](https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white) ![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white) ![Oracle](https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=oracle&logoColor=white)
+
+## ✔️<a name="task6_01">Subtask 1</a>
+
+🩸 11. Popełniłam błąd wpisując nazwisko Ani Miler – wpisałam Muler. Znajdź i zastosuj funkcję, która poprawi mój karkołomny błąd 🙈
+
+```sql
+UPDATE customers
+SET surname = 'Miler'
+WHERE name = 'Ania' and surname = 'Muler';
+```
+![]()
+
+🩸 12. Pobrałam za dużo pieniędzy od klienta, który kupił w ostatnim czasie film o id 4. Korzystając z funkcji join sprawdź, jak ma na imię klient i jakiego ma maila. W celu napisania mu wiadomości o pomyłce fantastycznej szefowej.
+
+```sql
+SELECT c.name, c.surname, c.email
+FROM customers c 
+JOIN sale s ON c.customer_id = s.customer_id
+WHERE s.movie_id = 4;
+```
+![]()
+
+🩸 13. Na pewno zauważyłaś, że sprzedawca zapomniał wpisać emaila klientce Patrycji. Uzupełnij ten brak wpisując: pati@mail.com.
+
+```sql
+UPDATE customers
+SET email = 'pati@mail.com'
+WHERE name = 'Patrycja';
+```
+![]()
+
+🩸 14. Dla każdego zakupu wyświetl, imię i nazwisko klienta, który dokonał wypożyczenia oraz tytuł wypożyczonego filmu. (wykorzystaj do tego funkcję inner join).
+
+```sql
+SELECT c.name, c.surname, m.title, s.sale_date
+FROM customers c 
+JOIN sale s ON c.customer_id = s.customer_id
+JOIN movies m ON s.movie_id = m.movie_id;
+```
+![]()
+
+🩸 15. W celu anonimizacji danych, chcesz stworzyć pseudonimy swoich klientów. - Dodaj kolumnę o nazwie ‘pseudonym’ do tabeli customer,- Wypełnij kolumnę w taki sposób, aby pseudonim stworzył się z dwóch pierwszych liter imienia i ostatniej litery nazwiska. Np. Natalie Pilling → Nag
+
+```sql
+ALTER TABLE customers
+ADD pseudonym CHAR(3) NOT NULL;
+
+UPDATE customers 
+SET pseudonym = CONCAT(LEFT(name,2), RIGHT(surname,1));
+```
+![]()
+
+🩸 16. Wyświetl tytuły filmów, które zostały zakupione, wyświetl tabelę w taki sposób, aby tytuły się nie powtarzały.
+
+```sql
+SELECT title 
+FROM movies
+WHERE movie_id IN 
+	(SELECT DISTINCT movie_id
+         FROM sale);
+```
+
+Lub
+
+```sql
+SELECT DISTINCT m.title 
+FROM movies m 
+JOIN sale s ON m.movie_id = s.movie_id;
+```
+![]()
+
+🩸 17. Wyświetl wspólną listę imion wszystkich aktorów i klientów, a wynik uporządkuj alfabetycznie (wykorzystaj do tego funkcję UNION).
+
+```sql
+SELECT name FROM actors
+UNION 
+SELECT name FROM customers
+ORDER BY name ASC;
+```
+![]()
+
+🩸 18. Polskę opanowała inflacja i nasz sklepik z filmami również dotknął ten problem. Podnieś cenę wszystkich filmów wyprodukowanych po 2000 roku o 2,5$.
+
+```sql
+UPDATE movies
+SET price = price + 2.5
+WHERE year_of_production > 2000;
+```
+![]()
+
+🩸 19. Wyświetl imię i nazwisko aktora o id 4 i tytuł filmu, w którym zagrał.
+
+```sql
+SELECT a.name, a.surname, m.title
+FROM actors a 
+JOIN cast c ON a.actor_id = c.actor_id
+JOIN movies m ON c.movie_id = m.movie_id
+WHERE a.actor_id = 4;
+```
+![]()
+
+🩸 20. A gdzie nasza HONIA!? Dodaj do tabeli customers nową krotkę, gdzie customer_id = 7, name = Honia, surname = Stuczka-Kucharska, email = honia@mail.com oraz pseudonym = Hoa.
+
+```sql
+INSERT INTO customers
+(customer_id, name, surname, email, pseudonym)
+VALUES (7, 'Honia', 'Stuczka-Kucharska', 'honia@mail.com', 'Hoa')
+```
+![]()
 
 
 
