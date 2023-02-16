@@ -759,9 +759,9 @@ UPDATE customers
 SET surname = 'Miler'
 WHERE name = 'Ania' and surname = 'Muler';
 ```
-![]()
+![](https://github.com/milgit-007/challenge_portfolio_milena/blob/main/Task%205/11.png)
 
-🩸 12. Pobrałam za dużo pieniędzy od klienta, który kupił w ostatnim czasie film o id 4. Korzystając z funkcji join sprawdź, jak ma na imię klient i jakiego ma maila. W celu napisania mu wiadomości o pomyłce fantastycznej szefowej.
+🩸 12. Pobrałam za dużo pieniędzy od klienta, który kupił w ostatnim czasie film o id 4. Korzystając z JOIN sprawdź, jak ma na imię klient i jakiego ma maila. W celu napisania mu wiadomości o pomyłce fantastycznej szefowej.
 
 ```sql
 SELECT c.name, c.surname, c.email
@@ -769,7 +769,7 @@ FROM customers c
 JOIN sale s ON c.customer_id = s.customer_id
 WHERE s.movie_id = 4;
 ```
-![]()
+![](https://github.com/milgit-007/challenge_portfolio_milena/blob/main/Task%205/12.png)
 
 🩸 13. Na pewno zauważyłaś, że sprzedawca zapomniał wpisać emaila klientce Patrycji. Uzupełnij ten brak wpisując: pati@mail.com.
 
@@ -778,7 +778,7 @@ UPDATE customers
 SET email = 'pati@mail.com'
 WHERE name = 'Patrycja';
 ```
-![]()
+![](https://github.com/milgit-007/challenge_portfolio_milena/blob/main/Task%205/13.png)
 
 🩸 14. Dla każdego zakupu wyświetl, imię i nazwisko klienta, który dokonał wypożyczenia oraz tytuł wypożyczonego filmu. (wykorzystaj do tego funkcję inner join).
 
@@ -788,7 +788,7 @@ FROM customers c
 JOIN sale s ON c.customer_id = s.customer_id
 JOIN movies m ON s.movie_id = m.movie_id;
 ```
-![]()
+![](https://github.com/milgit-007/challenge_portfolio_milena/blob/main/Task%205/14.png)
 
 🩸 15. W celu anonimizacji danych, chcesz stworzyć pseudonimy swoich klientów. - Dodaj kolumnę o nazwie ‘pseudonym’ do tabeli customer,- Wypełnij kolumnę w taki sposób, aby pseudonim stworzył się z dwóch pierwszych liter imienia i ostatniej litery nazwiska. Np. Natalie Pilling → Nag
 
@@ -799,7 +799,7 @@ ADD pseudonym CHAR(3) NOT NULL;
 UPDATE customers 
 SET pseudonym = CONCAT(LEFT(name,2), RIGHT(surname,1));
 ```
-![]()
+![](https://github.com/milgit-007/challenge_portfolio_milena/blob/main/Task%205/15.png)
 
 🩸 16. Wyświetl tytuły filmów, które zostały zakupione, wyświetl tabelę w taki sposób, aby tytuły się nie powtarzały.
 
@@ -818,7 +818,7 @@ SELECT DISTINCT m.title
 FROM movies m 
 JOIN sale s ON m.movie_id = s.movie_id;
 ```
-![]()
+![](https://github.com/milgit-007/challenge_portfolio_milena/blob/main/Task%205/16.png)
 
 🩸 17. Wyświetl wspólną listę imion wszystkich aktorów i klientów, a wynik uporządkuj alfabetycznie (wykorzystaj do tego funkcję UNION).
 
@@ -828,7 +828,7 @@ UNION
 SELECT name FROM customers
 ORDER BY name ASC;
 ```
-![]()
+![](https://github.com/milgit-007/challenge_portfolio_milena/blob/main/Task%205/17.png)
 
 🩸 18. Polskę opanowała inflacja i nasz sklepik z filmami również dotknął ten problem. Podnieś cenę wszystkich filmów wyprodukowanych po 2000 roku o 2,5$.
 
@@ -837,7 +837,7 @@ UPDATE movies
 SET price = price + 2.5
 WHERE year_of_production > 2000;
 ```
-![]()
+![](https://github.com/milgit-007/challenge_portfolio_milena/blob/main/Task%205/18.png)
 
 🩸 19. Wyświetl imię i nazwisko aktora o id 4 i tytuł filmu, w którym zagrał.
 
@@ -848,7 +848,7 @@ JOIN cast c ON a.actor_id = c.actor_id
 JOIN movies m ON c.movie_id = m.movie_id
 WHERE a.actor_id = 4;
 ```
-![]()
+![](https://github.com/milgit-007/challenge_portfolio_milena/blob/main/Task%205/19.png)
 
 🩸 20. A gdzie nasza HONIA!? Dodaj do tabeli customers nową krotkę, gdzie customer_id = 7, name = Honia, surname = Stuczka-Kucharska, email = honia@mail.com oraz pseudonym = Hoa.
 
@@ -857,7 +857,7 @@ INSERT INTO customers
 (customer_id, name, surname, email, pseudonym)
 VALUES (7, 'Honia', 'Stuczka-Kucharska', 'honia@mail.com', 'Hoa')
 ```
-![]()
+![](https://github.com/milgit-007/challenge_portfolio_milena/blob/main/Task%205/20.png)
 
 
 
