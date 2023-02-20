@@ -4,37 +4,37 @@
 
 ### ➡️ TASK 1 - Exploratory Testing of the Scouts Panel Application 
 
-### ✔️ [Subtask 1](#subtask1)
+### ✔️ [Subtask 1 - Test](#subtask1)
 
-### ✔️ [Subtask 3](#subtask3)
+### ✔️ [Subtask 3 - About me](#subtask3)
 
-### ✔️ [Subtask 4](#subtask4)
+### ✔️ [Subtask 4 - Scouts Panel Application](#subtask4)
 
-+ [1. Na czym polega ta aplikacja? Do czego służy?](#zad1)
-+ [2. Funkcjonalności, jakie posiada aplikacja.](#zad2)
-+ [3. Jakie funkcje można ewentualnie dodać/zmienić?](#zad3)
-+ [4. Ocena interfejsu aplikacji.](#zad4)
-+ [5. Potencjalne błędy.](#zad5)
++ [1. What is the purpose and functionality of this application?](#zad1)
++ [2. What are the features of the application?](#zad2)
++ [3. What additional functions or changes could be made to the application?](#zad3)
++ [4. Assessment of the application's user interface.](#zad4)
++ [5. Identification of potential bugs or issues with the application.](#zad5)
 
 ### ➡️ TASK 2 - Test Cases 
 
-### ✔️ [Subtask 1 - Test Cases Based on User Stories](#task2_01)
+### ✔️ [Subtask 1 - Scouts Panel - Test Cases Based on User Stories](#task2_01)
 
-### ✔️ [Subtask 2 - Test Cases Based on 'Own Experience'](#task2_02) 
+### ✔️ [Subtask 2 - Scouts Panel - Test Cases Based on 'Own Experience'](#task2_02) 
 
 ### ✔️ [Subtask 3 - Why we should write Test Cases?](#task2_03) 
 
-### ✔️ [Subtask 4 - Pick Eat Up - Test Cases](#task2_04) 
+### ✔️ [Subtask 4 -  Mobile Application - Pick Eat Up - Test Cases](#task2_04) 
 
 ### ➡️ TASK 3 - Bug Reports and Test Report 
 
 ### ✔️ [Subtask 1 - Bug Report Template](#task3_01) 
 
-### ✔️ [Subtask 2 - Execution of Test Cases and Bug Reports](#task3_02)
+### ✔️ [Subtask 2 - Scouts Panel - Execution of Test Cases and Bug Reports](#task3_02)
 
-### ✔️ [Subtask 3 - Test Report](#task3_03)
+### ✔️ [Subtask 3 - Scouts Panel - Test Report](#task3_03)
 
-### ✔️ [Subtask 4 - Exploratory Testing - Intellectual Tour](#task3_04)
+### ✔️ [Subtask 4 - Scouts Panel - Exploratory Testing - Intellectual Tour](#task3_04)
 
 
 ### ➡️ TASK 4 -  Exploratory Testing and Bug Reports for the OLX Mobile Application and SwipeTo 
@@ -59,9 +59,9 @@
 
 ### ✔️ [Subtask 1 - SQL Exercises - part 2](#task6_01)
 
-### ✔️ [Subtask 2 - ](#task6_02)
+### ✔️ [Subtask 2 - ISTQB - Test](#task6_02)
 
-### ✔️ [Subtask 3 - ](#task6_03)
+### ✔️ [Subtask 3 - Portfolio ](https://github.com/milgit-007/MilenaKurzatkowska-Portfolio)
 
 
 <hr>
@@ -858,6 +858,11 @@ INSERT INTO customers
 VALUES (7, 'Honia', 'Stuczka-Kucharska', 'honia@mail.com', 'Hoa')
 ```
 ![](https://github.com/milgit-007/challenge_portfolio_milena/blob/main/Task%205/20.png)
+
+## ✔️<a name="task6_02">Subtask 2</a>
+
+### ISTQB - Test - ⚪ ECRU -14/15
+
 
 
 
