@@ -61,7 +61,7 @@
 
 ### ✔️ [Subtask 2 - ISTQB - Test](#task6_02)
 
-### ✔️ [Subtask 3 - Portfolio ](https://github.com/milgit-007/MilenaKurzatkowska-Portfolio)
+### ✔️ [Subtask 3 - Portfolio ](#task6_03)
 
 
 <hr>
@@ -863,7 +863,9 @@ VALUES (7, 'Honia', 'Stuczka-Kucharska', 'honia@mail.com', 'Hoa')
 
 ### ISTQB - Test - ⚪ ECRU -14/15
 
+## ✔️<a name="task6_03">Subtask 3</a>
 
+### [🔗 Portfolio](https://github.com/milgit-007/MilenaKurzatkowska-Portfolio) 
 
 
 
